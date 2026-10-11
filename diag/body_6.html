@@ -1,0 +1,2925 @@
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/search/ark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/css/search/sample.css">
+    <link rel="stylesheet" type="text/css"  href="/css/bizinfo/swiper.css" ><!-- Swiper JS -->
+  	<script src="/js/bizinfo/swiper.js" type="text/javascript"></script><!-- Swiper JS -->
+
+    <script type="text/javascript" src="/js/bizinfo/myKeyword.js" charset="UTF-8"></script>
+    
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+
+<style>
+
+</style>
+
+<meta name="_csrf_parameter" content="_csrf" /><meta name="_csrf_header" content="X-CSRF-TOKEN" /><meta name="_csrf" content="c048bd94-7992-4dbb-83f9-cb89b99fbf12" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+<meta name="SiteID" content=""/>
+<meta name="description" content="">
+<meta property="og:type" content="website">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="/images/bizinfo/common/sns_thumbnail_img.png">
+<meta property="og:url" content="">
+<link href="/images/bizinfo/favicon/favicon.ico" rel="shortcut icon" type="image/ico" />
+
+<script type="text/javascript" src="/js/search/jquery-1.6.2.min.js" ></script>
+<script type="text/javascript" src="/js/search/beta.fix.js" ></script>
+
+<script type="text/javascript" src="/js/search/ark_main.js" ></script>
+<link rel="stylesheet" href="/css/bizinfo/common.css" type="text/css"/>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>기업마당</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+.sns_box .btn_list .btn_onePass {
+    background-image: url("/images/bizinfo/common/button_04.png");
+}
+
+.util ul li .btn_mberManage {
+    background-image: url("/images/bizinfo/common/btn_onePassMber.png");
+}
+.header .font_controller .btn_font_minus{float:left; width:32px; height:32px; background:url('/images/bizinfo/common/font_minus.svg') no-repeat center center; text-indent:-9999px; display:block; }
+.header .font_controller .btn_font_plus{float:left; width:32px; height:32px; background:url('/images/bizinfo/common/font_plus.png') no-repeat center center; text-indent:-9999px; display:block; }
+.navi_wrap .inner .search_top .btn_search{position:absolute; right:20px; top:0; width:40px; height:50px; background:url('/images/bizinfo/common/btn_search2.svg') no-repeat center center; background-size:40px; display:block;  text-indent:-9999px;}
+.main_search .btn_search{position:absolute; right:30px; top:20px; width:30px; height:30px; background:url('/images/bizinfo/common/btn_search.svg') no-repeat center center; text-indent:-9999px;}
+.main_visual .visual_slide_prev{position:absolute; left: -20px;; top:50%; width:100px; height:100px; background:url('/images/main/ico_btn_prev.png') no-repeat center center; text-indent:-9999px; opacity:1; display:block; transform: translate(0, -50%);}
+.main_visual .visual_slide_next{position:absolute; right: -20px;; top:50%; width:100px; height:100px; background:url('/images/main/ico_btn_next.png') no-repeat center center; text-indent:-9999px; opacity:1;display:block; transform: translate(0, -50%);}
+.main_slide .more{position:absolute; right:20px; bottom:30px; width:50px;height:50px; background:url('/images/bizinfo/main/btn_more.svg') no-repeat center center; text-indent:-9999px;}
+.main_slide .dash_more{position:absolute; right:20px; bottom:15px; width:50px;height:50px; background:url('/images/bizinfo/main/btn_more.svg') no-repeat center center; text-indent:-9999px;}
+.main_tab_cont_wrap .btn_rolling_prev{position:absolute; z-index:2; margin-top:-16px; left:0; top:50%; width:32px; height:32px; background:url('/images/bizinfo/main/main_rolling_prev.png') no-repeat center center; text-indent:-9999px; display:block; }
+.main_tab_cont_wrap .btn_rolling_next{position:absolute; z-index:2; margin-top:-16px; right:0; top:50%; width:32px; height:32px; background:url('/images/bizinfo/main/main_rolling_next.png') no-repeat center center; text-indent:-9999px; display:block; }
+.main_tab_cont_wrap .dash .btn_rolling_prev{position:absolute; z-index:2; margin-top:-16px; left:0; top:50%; width:32px; height:32px; background:url('/images/bizinfo/main/main_rolling_prev.png') no-repeat center center; text-indent:-9999px; display:none; }
+.main_tab_cont_wrap .dash .btn_rolling_next{position:absolute; z-index:2; margin-top:-16px; right:0; top:50%; width:32px; height:32px; background:url('/images/bizinfo/main/main_rolling_next.png') no-repeat center center; text-indent:-9999px; display:none; }
+.main_cont_3 .icon_list a{position:relative; padding:20px 30px 0 90px; height:80px; display:block; box-sizing:border-box; background:url('/images/bizinfo/main/arrow.svg') no-repeat right center; line-height:1.2; font-size:16px; color:#005d92; text-align:left; font-weight:500;}
+.main_cont_3 .icon_list.icon_1 a:before{background:url('/images/bizinfo/main/main_icon_off_1.svg') no-repeat center center #f7fdfe;}
+.main_cont_3 .icon_list.icon_2 a:before{background:url('/images/bizinfo/main/main_icon_off_2.svg') no-repeat center center #f7fdfe;}
+.main_cont_3 .icon_list.icon_3 a:before{background:url('/images/bizinfo/main/main_icon_off_3.svg') no-repeat center center #f7fdfe;}
+.main_cont_3 .icon_list.icon_4 a:before{background:url('/images/bizinfo/main/main_icon_off_4.svg') no-repeat center center #f7fdfe;}
+.main_cont_3 .icon_list.icon_5 a:before{background:url('/images/bizinfo/main/main_icon_off_5.svg') no-repeat center center #f7fdfe;}
+.main_cont_3 .icon_list.icon_1 a:hover:before{background:url('/images/bizinfo/main/main_icon_on_1.svg') no-repeat center center #005d92;}
+.main_cont_3 .icon_list.icon_2 a:hover:before{background:url('/images/bizinfo/main/main_icon_on_2.svg') no-repeat center center #005d92;}
+.main_cont_3 .icon_list.icon_3 a:hover:before{background:url('/images/bizinfo/main/main_icon_on_3.svg') no-repeat center center #005d92;}
+.main_cont_3 .icon_list.icon_4 a:hover:before{background:url('/images/bizinfo/main/main_icon_on_4.svg') no-repeat center center #005d92;}
+.main_cont_3 .icon_list.icon_5 a:hover:before{background:url('/images/bizinfo/main/main_icon_on_5.svg') no-repeat center center #005d92;}
+.navi ul li{float:left; padding:0 10px 0 15px; background:url('/images/bizinfo/common/navi_arrow.svg') no-repeat 0 center; font-size:14px; color:#828282;}
+/* .custom_select .select_list_open{padding-left:20px; width:100%; height:60px; line-height:52px; border:4px solid #37A2B5; border-radius:50px; box-sizing:border-box;  font-size:18px; background:url('/images/bizinfo/common/select_arrow.svg') no-repeat right 10px center #fff; overflow : hidden; background-size:12px;  border:4px solid #37A2B5; border-radius:50px; box-sizing:border-box;  font-size:18px; text-align:left;}  */
+.search_Type_1 .btn_search{border:none; position:relative; margin-right:5px; right:0; top:0; width:60px; height:60px; background:url('/images/bizinfo/common/btn_search2.png') no-repeat center center #37A2B5; border-radius:50%; text-indent:-9999px; cursor:pointer; float:left;}
+.search_Type_1 .btn_reset{border:none; position:relative; margin-right:5px; right:0; top:0; width:60px; height:60px; background:url('/images/bizinfo/common/btn_reset2.png') no-repeat center center #37A2B5; border-radius:50%; text-indent:-9999px; cursor:pointer; float:left;}
+.search_keyword_list li .state.icon_new{height:10px; background:url('/images/bizinfo/main/icon_new.png') no-repeat center center; text-indent:-9999px;}
+.search_keyword_list li .state.icon_up{height:10px; background:url('/images/bizinfo/main/keyword_up.png') no-repeat center center; text-indent:-9999px;}
+.search_keyword_list li .state.icon_down{height:10px; background:url('/images/bizinfo/main/keyword_down.png') no-repeat center center; text-indent:-9999px;}
+
+/*전체*/
+.support_project .category .category_list.icon_1 a:before{background:url('/images/bizinfo/sub/support_off_icon1.svg') no-repeat center center #f7fdfe;}
+/*금융*/
+.support_project .category .category_list.icon_2 a:before{background:url('/images/bizinfo/sub/support_off_icon2.svg') no-repeat center center #f7fdfe;}
+/*수출*/
+.support_project .category .category_list.icon_3 a:before{background:url('/images/bizinfo/sub/support_off_icon3.svg') no-repeat center center #f7fdfe;}
+/*내수*/
+.support_project .category .category_list.icon_4 a:before{background:url('/images/bizinfo/sub/support_off_icon4.svg') no-repeat center center #f7fdfe;}
+/*제도*/
+.support_project .category .category_list.icon_5 a:before{background:url('/images/bizinfo/sub/support_off_icon9.svg') no-repeat center center #f7fdfe;}
+/*소상공인*/
+.support_project .category .category_list.icon_6 a:before{background:url('/images/bizinfo/sub/support_off_icon8.svg') no-repeat center center #f7fdfe;}
+/*제조*/
+.support_project .category .category_list.icon_17 a:before{background:url('/images/bizinfo/sub/support_off_icon11.svg') no-repeat center center #f7fdfe;}
+/*기술*/
+.support_project .category .category_list.icon_8 a:before{background:url('/images/bizinfo/sub/support_off_icon5.svg') no-repeat center center #f7fdfe;}
+/*인력*/
+.support_project .category .category_list.icon_9 a:before{background:url('/images/bizinfo/sub/support_off_icon6.svg') no-repeat center center #f7fdfe;}
+/*창업*/
+.support_project .category .category_list.icon_10 a:before{background:url('/images/bizinfo/sub/support_off_icon7.svg') no-repeat center center #f7fdfe;}
+/*경영*/
+.support_project .category .category_list.icon_11 a:before{background:url('/images/bizinfo/sub/support_off_icon12.svg') no-repeat center center #f7fdfe;}
+/*전통시장*/
+.support_project .category .category_list.icon_12 a:before{background:url('/images/bizinfo/sub/support_off_icon13.svg') no-repeat center center #f7fdfe;}
+/*벤처*/
+.support_project .category .category_list.icon_13 a:before{background:url('/images/bizinfo/sub/support_off_icon14.svg') no-repeat center center #f7fdfe;}
+/*전체*/
+.support_project .category .category_list.icon_1 a:hover:before,
+.support_project .category .category_list.icon_1 a.on:before{background:url('/images/bizinfo/sub/support_on_icon1.svg') no-repeat center center #37A2B5;}
+/*금융*/
+.support_project .category .category_list.icon_2 a:hover:before,
+.support_project .category .category_list.icon_2 a.on:before{background:url('/images/bizinfo/sub/support_on_icon2.svg') no-repeat center center #37A2B5;}
+/*수출*/
+.support_project .category .category_list.icon_3 a:hover:before,
+.support_project .category .category_list.icon_3 a.on:before{background:url('/images/bizinfo/sub/support_on_icon3.svg') no-repeat center center #37A2B5;}
+/*내수*/
+.support_project .category .category_list.icon_4 a:hover:before,
+.support_project .category .category_list.icon_4 a.on:before{background:url('/images/bizinfo/sub/support_on_icon4.svg') no-repeat center center #37A2B5;}
+/*제도*/
+.support_project .category .category_list.icon_5 a:hover:before,
+.support_project .category .category_list.icon_5 a.on:before{background:url('/images/bizinfo/sub/support_on_icon9.svg') no-repeat center center #37A2B5;}
+/*소상공인*/
+.support_project .category .category_list.icon_6 a:hover:before,
+.support_project .category .category_list.icon_6 a.on:before{background:url('/images/bizinfo/sub/support_on_icon8.svg') no-repeat center center #37A2B5;}
+/*제조*/
+/* .support_project .category .category_list.icon_17 a:hover:before, */
+.support_project .category .category_list.icon_17 a.on:before{background:url('/images/bizinfo/sub/support_on_icon11.svg') no-repeat center center #37A2B5;}
+/*제조*/
+.support_project .category .category_list.icon_8 a:hover:before,
+.support_project .category .category_list.icon_8 a.on:before{background:url('/images/bizinfo/sub/support_on_icon5.svg') no-repeat center center #37A2B5;}
+/*기술*/
+.support_project .category .category_list.icon_9 a:hover:before,
+.support_project .category .category_list.icon_9 a.on:before{background:url('/images/bizinfo/sub/support_on_icon6.svg') no-repeat center center #37A2B5;}
+/*인력*/
+.support_project .category .category_list.icon_10 a:hover:before,
+.support_project .category .category_list.icon_10 a.on:before{background:url('/images/bizinfo/sub/support_on_icon7.svg') no-repeat center center #37A2B5;}
+/*경영*/
+.support_project .category .category_list.icon_11 a:hover:before,
+.support_project .category .category_list.icon_11 a.on:before{background:url('/images/bizinfo/sub/support_on_icon12.svg') no-repeat center center #37A2B5;}
+/*전통시장*/
+.support_project .category .category_list.icon_12 a:hover:before,
+.support_project .category .category_list.icon_12 a.on:before{background:url('/images/bizinfo/sub/support_on_icon13.svg') no-repeat center center #37A2B5;}
+/*벤처*/
+.support_project .category .category_list.icon_13 a:hover:before,
+.support_project .category .category_list.icon_13 a.on:before{background:url('/images/bizinfo/sub/support_on_icon14.svg') no-repeat center center #37A2B5;}
+.gallery_Type_2 ul li .img_area .cover{position:absolute; left:0; top:0; bottom:0; width:100%; height:100%; background:url('/images/bizinfo/common/btn_search.svg') no-repeat center center rgba(255,255,255,0.6); opacity:0;
+    -webkit-transition: all 0.35s ease-out;
+    -moz-transition: all 0.35s ease-out;
+    -ms-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+}
+.search_Type_2 .btn_search {
+    background: url('/images/bizinfo/common/btn_search.svg') no-repeat center center;
+}
+
+.view_cont_wrap .attached_file_list ul li .file_name{padding-left:15px; background:url('/images/bizinfo/sub/attachments_ico_file.svg') no-repeat 0 center; color:#666; display:block;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    word-wrap:normal;
+    overflow:hidden;
+}
+.support_project_detail .attached_file_list li .file_name{padding-left:15px; background:url('/images/bizinfo/sub/attachments_ico_file.svg') no-repeat 0 center; letter-spacing:-0.48px; line-height:1.5; display:block;
+    /* text-overflow:ellipsis;
+    white-space:nowrap;
+    word-wrap:normal;
+    overflow:hidden; */
+}
+.satisfaction .ratings{margin:10px 14px 0; display:inline-block; width:127px; height:22px; background:url('/images/bizinfo/sub/satisfaction_area_ico_star_0_edit.svg') no-repeat center center; background-size:100%;}
+.satisfaction .ratings_1{background:url('/images/bizinfo/sub/satisfaction_area_ico_star_1_edit.svg') no-repeat center center;}
+.satisfaction .ratings_2{background:url('/images/bizinfo/sub/satisfaction_area_ico_star_2_edit.svg') no-repeat center center;}
+.satisfaction .ratings_3{background:url('/images/bizinfo/sub/satisfaction_area_ico_star_3_edit.svg') no-repeat center center;}
+.satisfaction .ratings_4{background:url('/images/bizinfo/sub/satisfaction_area_ico_star_4_edit.svg') no-repeat center center;}
+.satisfaction .ratings_5{background:url('/images/bizinfo/sub/satisfaction_area_ico_star_5_edit.svg') no-repeat center center;}
+.meetingRoom_rental_cont .meetingRoom_lists .info_icon ul li.icon_1 span{background:url('/images/bizinfo/sub/meetingRoom_rental_icon1.png') no-repeat center 0;}
+.meetingRoom_rental_cont .meetingRoom_lists .info_icon ul li.icon_2 span{background:url('/images/bizinfo/sub/meetingRoom_rental_icon2.png') no-repeat center 0;}
+.meetingRoom_rental_cont .meetingRoom_lists .info_icon ul li.icon_3 span{background:url('/images/bizinfo/sub/meetingRoom_rental_icon3.png') no-repeat center 0;}
+.meetingRoom_rental_cont .meetingRoom_lists .info_icon ul li.icon_4 span{background:url('/images/bizinfo/sub/meetingRoom_rental_icon4.png') no-repeat center 0;}
+.meetingRoom_rental_cont .meetingRoom_lists .info_icon ul li.icon_5 span{background:url('/images/bizinfo/sub/meetingRoom_rental_icon5.png') no-repeat center 0;}
+.join_step ul li:after{position:absolute; right:40px; top:50%; margin-top:-10px;width:20px; height:20px; background:url('/images/bizinfo/sub/join_step_arrow.png') no-repeat center center; display:block; content:"";}
+.join_step ul li.icon_1 span{background:url('/images/bizinfo/sub/join_icon1_off.png') no-repeat 0 center;}
+.join_step ul li.icon_2 span{background:url('/images/bizinfo/sub/join_icon2_off.png') no-repeat 0 center;}
+.join_step ul li.icon_3 span{background:url('/images/bizinfo/sub/join_icon3_off.png') no-repeat 0 center;}
+.join_step ul li.icon_4 span{background:url('/images/bizinfo/sub/join_icon4_off.png') no-repeat 0 center;}
+.join_step ul li.icon_1.on span{background:url('/images/bizinfo/sub/join_icon1_on.png') no-repeat 0 center;}
+.join_step ul li.icon_2.on span{background:url('/images/bizinfo/sub/join_icon2_on.png') no-repeat 0 center;}
+.join_step ul li.icon_3.on span{background:url('/images/bizinfo/sub/join_icon3_on.png') no-repeat 0 center;}
+.join_step ul li.icon_4.on span{background:url('/images/bizinfo/sub/join_icon4_on.png') no-repeat 0 center;}
+.join_title input[type=checkbox]:checked+label{background:url('/images/bizinfo/sub/checkbox_on.gif') no-repeat 0 5px;}
+.join_certified_select ul li.individual .name{ background:url('/images/bizinfo/sub/join_certified1_off.png') no-repeat center 0;}
+.join_certified_select ul li.company .name{ background:url('/images/bizinfo/sub/join_certified2_off.png') no-repeat center 0;}
+.join_certified_select ul li.individual.active .name{ background:url('/images/bizinfo/sub/join_certified1_on.png') no-repeat center 0;}
+.join_certified_select ul li.company.active .name{ background:url('/images/bizinfo/sub/join_certified2_on.png') no-repeat center 0;}
+.btn_self_certification a{position:relative; padding:65px 0 0 170px; width:400px; height:200px; border:1px solid #ddd; border-radius:100px; display:inline-block; box-sizing:border-box; background:url('/images/bizinfo/sub/icon_self_certification.png') no-repeat 40px center;  text-align:left; }
+.btn_self_certification a:before{position:absolute; right:40px; top:50%; width:16px; height:20px; transform: translate(0, -50%); background:url('/images/bizinfo/sub/arrow.png') no-repeat center center; display:block; content:"";}
+.keywords_list ul li .btn_keyword_delete{position:absolute; right:15px; top:10px; width:12px; height:12px; background:url('/images/bizinfo/sub/icon_remove.png') no-repeat center center; display:block; text-indent:-9999px;}
+.join_completed .txt{margin-bottom:60px; padding-top:125px; text-align:center; background:url('/images/bizinfo/sub/icon_completed.png') no-repeat center 0; line-height:1.5; font-size:1.375em; font-weight:500; letter-spacing:-0.66px; }
+.faq ul li .question:before{position:absolute; right:0; top:10px; width:40px; height:40px; background:url('/images/bizinfo/sub/faq_down.png') no-repeat center center; display:block; content:"";}
+.qr_list li{float:left; padding:30px 10px 0; width:50%; height:238px; text-align:center; background:url('/images/bizinfo/sub/app_download_bg.png') no-repeat center center; box-sizing:border-box;}
+.btn_popup_close{position:absolute; right:20px; top:25px; width:50px; height:50px; display:block; background:url('/images/bizinfo/sub/btn_close.png') no-repeat center center; text-indent:-9999px;}
+.btn_modal_close{position:absolute; right:20px; top:25px; width:50px; height:50px; display:block; background:url('/images/bizinfo/sub/btn_close.png') no-repeat center center; text-indent:-9999px;}
+.sns_box .btn_list .btn_naver{background-image:url("/images/bizinfo/sns/sns_icon2.png'"); background-size: 13px; background-position: 32px 50%; background-repeat: no-repeat;  background-color:#03c75a; color:#fff;}
+.sns_box .btn_list .btn_kakao{background-image:url("/images/bizinfo/sns/sns_icon3.png'"); background-size: 18px; background-position: 32px 50%; background-repeat: no-repeat; background-color:#fee500; color:#262626;}
+.sns_box .btn_list .btn_google{background-image:url("/images/bizinfo/sns/sns_icon4.png'"); background-size: 16px; background-position: 32px 50%; background-repeat: no-repeat; border:1px solid #eaeaea; background-color:#fff; color:#262626;}
+.sns_box .btn_list .btn_apple{background-image:url("/images/bizinfo/sns/sns_icon5.png'"); background-size: 15px; background-position: 32px 50%; background-repeat: no-repeat; background-color:#050708; color:#fff;}
+.related_search_words .box:before{position:absolute; right:15px; top:-3px; width:14px; height:17px; background:url('/images/bizinfo/sub/ico_bookmark.svg') no-repeat center center; background-size:14px; display:block; content:"";}
+.pagination .__first a{background-image:url('/images/common/paging_first.svg');}
+.pagination .__prev a{background-image:url('/images/common/paging_prev.svg');}
+.pagination .__next a{background-image:url('/images/common/paging_next.svg');}
+.pagination .__last a{background-image:url('/images/common/paging_last.svg');}
+.paramMiddle div.ccboxLightBorder {background:url('/images/bizinfo/common/bar_search2.gif') left bottom repeat-x;}
+.paramMiddle ul li {color:#666;float:left;display:block;height:21px; margin:4px 0; text-align:center;background:url('/images/bizinfo/common/bar_search.gif') left 4px no-repeat;vertical-align:middle;}
+.required{display:block;padding-left:10px;margin-left:-10px;background:url('/images/bizinfo/common/icon_essential.png') left 8px no-repeat; font-weight: normal;}
+.header .gnb_open .btn_gnb_open{width:28px; height:28px; background:url('/images/bizinfo/common/icon_menu.svg') no-repeat center center; text-indent:-9999px; display:block;}
+.header .util_open .btn_gnb_util{width:28px; height:28px; background:url('/images/bizinfo/common/icon_person.svg') no-repeat center center; text-indent:-9999px; display:block;}
+.gnb_close .btn_gnb_close{width:30px; height:30px; background:url('/images/bizinfo/common/icon_close.svg') no-repeat center center;  background-size:30px;}
+.main_search .btn_search{right:26px; top:13px; width:22px; height:42px; background:url('/images/bizinfo/common/btn_search_mb.svg') no-repeat center center;}
+/* .main_visual .visual_slide_next{right:-20px; width:60px; height:60px; background:url('/images/bizinfo/main/visual_next_mb.svg') no-repeat center center; }
+.main_visual .visual_slide_prev{left:-20px; width:60px; height:60px; background:url('/images/bizinfo/main/visual_prev_mb.svg') no-repeat center center; } */
+/* .support_project_detail .attached_file_list li .right_btn .icon_watch{background:url('/images/bizinfo/sub/attachments_btn_view.svg') no-repeat center center;background-size: 50px 50px; } */
+/* .support_project_detail .attached_file_list li .right_btn .icon_download{background:url('/images/bizinfo/sub/attachments_btn_download.svg') no-repeat center center;background-size: 50px 50px; } */
+.api__list .__title{text-align:center; flex:0 0 auto;width:6rem;height:2.4rem;margin-right:1.3rem;border:solid 1px #ccc;border-radius:1.5rem;color:#666;font-size:1.0rem;font-weight:300;letter-spacing:-.075rem;line-height:2.4rem;background:url('/images/sub/ico_api_list.svg') no-repeat right 1.5rem center;}
+
+</style>
+</head>
+<body>
+
+</body>
+</html>
+
+<link href="/lib/css/base/jquery-ui-1.14.2.css" rel="stylesheet" type="text/css" />
+<link href="/lib/css/base/jquery-ui.theme.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/lib/js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="/lib/js/jquery-migrate-1.4.1.min.js" defer></script>
+
+<script type="text/javascript" src="/lib/js/jquery-ui-1.14.2.min.js"defer></script>
+<script type="text/javascript" src="/lib/js/jquery.cookie.js" defer></script>
+<script type="text/javascript" src="/lib/js/jquery.lck.util.js" defer></script>
+<script type="text/javascript" src="/lib/js/jquery.form.js" defer></script>
+<script type="text/javascript" src="/lib/js/gnb.js" defer></script>
+<script type="text/javascript" src="/lib/js/sub.js" defer></script>
+<script type="text/javascript" src="/lib/js/common.js" defer></script>
+<script type="text/javascript" src="/lib/js/mc.js" defer></script>
+<script type="text/javascript" src="/lib/js/jquery.blockUI.js" defer></script>
+<script type="text/javascript" src="/js/bizinfo/zoom.js" charset="utf-8"></script>
+<script type="text/javascript" src="/js/bizinfo/slick.js" charset="utf-8"></script>
+<script type="text/javascript" src="/js/bizinfo/OverlayScrollbars.js" charset="utf-8"></script>
+<script type="text/javascript" src="/js/bizinfo/common.js" charset="utf-8"></script>
+<script type="text/javascript" src="/js/bizinfo/docuGate.js"></script>
+<script type="text/javascript" src="/lib/js/bbs.js" defer></script>
+<link href="/css/bizinfo/swiper.css" rel="stylesheet" type="text/css"><!-- Swiper JS -->
+<script type="text/javascript" src="/js/bizinfo/swiper.js" ></script><!-- Swiper JS -->
+
+
+<script type="text/javascript">
+	var KUPLOAD_SERVER_URL= "https://www.bizinfo.go.kr";
+	var PREVIEW_SERVER_URL= "https://www.bizinfo.go.kr";
+	
+
+	var REQUEST_URL = "https://www.bizinfo.go.kr";
+	if (REQUEST_URL == null || REQUEST_URL == '') {
+		REQUEST_URL = "https://www.bizinfo.go.kr";
+	}
+</script>
+</head>
+<body>
+<div id="skip" class="skip">
+	<a href="#container">본문 바로가기</a>
+	<a href="#gnb">주메뉴 바로가기</a>
+</div>
+<!-- s: header -->
+<div class="header" >
+	<title>기업마당
+	
+	</title>
+	
+	<div class="header_inner" style="max-width:1330px;">
+	<div class="logo">
+		<a href="https://www.bizinfo.go.kr/biz/biza/selectBIZA200Detail.do?policyNewsId=86636" tabindex='-1'><img alt="new '26년 중소벤처기업 지원사업 안내자료" class="img_bsns_book" src="/images/bizinfo/main/img_expdata2_3.png" width="150px;" height="45px;" tabindex='0'></a>
+		<a href="/web/index.do" title="메인으로 이동"><img src="/images/bizinfo/common/logo.png" title="중소기업 성공 길잡이 기업마당" alt="중소기업 성공 길잡이 기업마당"></a></div>
+		<div class="gnb_open"><button type="button" class="btn_gnb_open" title="메뉴열기">메뉴열기</button></div>
+
+		
+			
+				<div class="util_open"><button type="button" class="btn_gnb_util login" title="로그인">로그인</button></div>
+			
+			
+		
+		<div class="gnb" id="gnb">
+			<div class="before"></div>
+			<ul>
+				<li class="l_title1" menuid="10000000000"> <a href="/sii/siia/selectSIIA200View.do" title="정책정보">정책정보 </a> 
+ <div class="s_gnb">
+  <div class="inner">
+   <span class="s_title">정책정보</span>
+   <ul> 
+    <li class="" menuid="11000000000"> <a href="/sii/siia/selectSIIA200View.do" title="지원사업 공고">지원사업 공고 </a> </li> 
+    <li class="" menuid="12000000000"> <a href="/biz/biza/selectBIZA100View.do" title="품목별 법정의무 인증제도">품목별 법정의무 인증제도 </a> </li> 
+    <li class="" menuid="13000000000"> <a href="/sie/siea/selectSIEA430View.do" title="행사정보">행사정보 </a> </li> 
+    <li class="" menuid="14000000000"> <a href="/biz/biza/selectBIZA200View.do" title="정책뉴스">정책뉴스 </a> </li> 
+    <li class="" menuid="18000000000"> <a href="/biz/biza/selectBIZA300View.do" title="입법·행정예고/고시">입법·행정예고/고시 </a> </li> 
+    <li class="" menuid="19000000000"> <a href="/biz/biza/selectBIZA400View.do" title="월간 중기누리">월간 중기누리 </a> </li>
+   </ul>
+  </div>
+ </div></li> 
+<li class="l_title2" menuid="20000000000"> <a href="/biz/bizb/selectBIZB100View.do" title="활용정보">활용정보 </a> 
+ <div class="s_gnb">
+  <div class="inner">
+   <span class="s_title">활용정보</span>
+   <ul> 
+    <li class="" menuid="21000000000"> <a href="/biz/bizb/selectBIZB100View.do" title="기업업무용 서식">기업업무용 서식 </a> </li> 
+    <li class="" menuid="22000000000"> <a href="/biz/bizb/selectBIZB200View.do" title="입주기업 모집공고">입주기업 모집공고 </a> </li> 
+    <li class="" menuid="23000000000"> <a href="https://www.k-startup.go.kr/web/contents/webOLNIVIDEOMTRM.do" target="_blank" title="온라인화상회의실">온라인화상회의실 </a> </li> 
+    <li class="" menuid="24000000000"> <a href="/apiList.do" title="정책정보 개방">정책정보 개방 </a> </li> 
+    <li class="" menuid="25000000000"> <a href="/dashboard.do" target="_blank" title="속보성 대시보드">속보성 대시보드 </a> </li>
+   </ul>
+  </div>
+ </div></li> 
+<li class="l_title3" menuid="30000000000"> <a href="/biz/bizc/selectBIZC100View.do" title="고객알림">고객알림 </a> 
+ <div class="s_gnb">
+  <div class="inner">
+   <span class="s_title">고객알림</span>
+   <ul> 
+    <li class="" menuid="31000000000"> <a href="/biz/bizc/selectBIZC100View.do" title="공지사항">공지사항 </a> </li> 
+    <li class="" menuid="32000000000"> <a href="/biz/bizc/selectBIZC200Regist.do" title="고객의 소리">고객의 소리 </a> </li> 
+    <li class="" menuid="33000000000"> <a href="/biz/bizc/selectBIZC300View.do" title="자주하는질문">자주하는질문 </a> </li>
+   </ul>
+  </div>
+ </div></li> 
+<li class="l_title4" menuid="40000000000"> <a href="/biz/bizd/selectBIZD100View.do" title="이용안내">이용안내 </a> 
+ <div class="s_gnb">
+  <div class="inner">
+   <span class="s_title">이용안내</span>
+   <ul> 
+    <li class="" menuid="41000000000"> <a href="/biz/bizd/selectBIZD100View.do" title="개인정보처리방침">개인정보처리방침 </a> </li> 
+    <li class="" menuid="42000000000"> <a href="/biz/bizd/selectBIZD110View.do" title="이메일주소 무단 수집 거부안내">이메일주소 무단 수집 거부안내 </a> </li> 
+    <li class="" menuid="43000000000"> <a href="/biz/bizd/selectBIZD120View.do" title="저작권 정책">저작권 정책 </a> </li> 
+    <li class="" menuid="44000000000"> <a href="/biz/bizd/selectBIZD130View.do" title="웹접근성 정책">웹접근성 정책 </a> </li> 
+    <li class="" menuid="45000000000"> <a href="/biz/bizd/selectBIZD140View.do" title="이용약관">이용약관 </a> </li>
+   </ul>
+  </div>
+ </div></li>
+			</ul>
+		</div>
+		<div class="f-r clfx">
+			
+				
+					<div class="app_download">
+						<a href="javascript:fn_AppDownQrPopup();" id="app_download_button" class="app_download_button" title="기업마당 앱다운로드 QR코드 레이어팝업">
+							<img src="/images/bizinfo/common/app_download.png" title="기업마당 앱다운로드" alt="기업마당 앱다운로드">
+						</a>
+					</div>
+				
+				
+			
+			<div class="util">
+				<ul class="util_menu">
+					<li><a href="/sitemap/intro.do" title="전체메뉴보기 페이지 이동">전체메뉴보기</a></li>
+					
+						
+							<li><a href="/member/login.do" title="로그인 페이지 이동">로그인</a></li>
+							<li><a href="#" onClick="javascript:fn_onePassRegist(); return false;" title="통합회원가입 페이지 이동">통합회원가입</a></li>
+							
+						
+						
+					
+				</ul>
+				<div class="font_controller">
+				    <ui type="button" class="btn_zoom_main">
+				    <li><a href="javascript:void(0);">화면크기</a>
+				    </li></ui>
+				    <ul class="zoom_menu" style="display:none;">
+					    <li data-zoom="80">
+					        <button type="button" onclick="setZoom(80)">
+					            <i class="icon_ga size_s">가</i> 
+					            <span>작게</span>
+					        </button>
+					    </li>
+					    <li data-zoom="100">
+					        <button type="button" onclick="setZoom(100)">
+					            <i class="icon_ga size_m">가</i> 
+					            <span>보통</span>
+					        </button>
+					    </li>
+					    <li data-zoom="120">
+					        <button type="button" onclick="setZoom(120)">
+					            <i class="icon_ga size_l">가</i> 
+					            <span>크게</span>
+					        </button>
+					    </li>
+					    <li data-zoom="150">
+					        <button type="button" onclick="setZoom(150)">
+					            <i class="icon_ga size_xl">가</i> 
+					            <span>가장 크게</span>
+					        </button>
+					    </li>
+					    <li class="menu_hr"><hr></li>
+					    <li class="zoom_reset_row">
+					        <button type="button" onclick="setZoom(100)" class="btn_zoom_reset">
+					            <img src="/images/bizinfo/common/btn_view_reset.jpg" style="width:18px;" alt=""> 
+					            <span>초기화</span>
+					        </button>
+					    </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	var size = '';
+	if(size != null && size != "" && size != "1.0"){
+		Zoom.size = Number(size);
+		Zoom.load();
+	}
+
+	$(".zoomIn").click(function(){
+		//zoom_in();
+		Zoom.exec(1);
+	});
+
+	$(".zoomOut").click(function(){
+		Zoom.exec(-1);
+	});
+
+	function fn_openPopupClinkLog(url,popGubun,cntntsDivCode,cntntsId){
+		var jsonUrl = "/web/insertCntsClikInfo.do";
+		var param =  {"cntntsDivCode" : cntntsDivCode ,"cntntsId" : cntntsId};
+		$.ajax({
+			url: jsonUrl,
+			type: "POST",
+			data: param,
+			async: false,
+			dataType: "json",
+			success : function( data ) {
+				window.open(url,popGubun, "");
+			}
+		}); 
+	}
+	
+	function fn_GoUrl(url){
+       	location.href = url; 	
+	}
+	
+	let currentScale = 1;
+
+	function setZoom(percent) {
+
+		document.body.style.zoom = percent + "%";
+		$(".current_zoom").text(percent + "%");
+	
+		$(".zoom_menu li").removeClass("active");
+		$(".zoom_menu button").removeAttr("title");
+	
+		const selectedBtn = $(".zoom_menu li[data-zoom='" + percent + "'] button");
+	
+		selectedBtn.parent().addClass("active");
+		selectedBtn.attr("title", "선택됨");
+	}
+
+
+	$(".btn_zoom_main").click(function() {
+	    $(".zoom_menu").toggle();
+	});
+	
+	//바탕을 클릭하면 zoom_menu 비활성화
+	$(document).on("mousedown", function(e) {
+	    var zoomMenu = $(".zoom_menu");
+	    var zoomBtn = $(".btn_zoom_main");
+	    if (!zoomMenu.is(e.target) && zoomMenu.has(e.target).length === 0 && !zoomBtn.is(e.target) && zoomBtn.has(e.target).length === 0) {
+	        zoomMenu.hide();
+	    }
+	});
+	
+	$(document).ready( function(){
+
+		if (matchMedia("screen and (min-width: 1201px)").matches) {
+			var menu = document.querySelector('.gnb');
+			var firstFocusableElement = menu.querySelectorAll('a')[0];
+			var focusableContent = menu.querySelectorAll('a');
+			var lastFocusableElement = focusableContent[focusableContent.length - 1];
+
+			// 상단 메뉴 키보드 포커스 이벤트
+			document.addEventListener('keydown', function(e) {
+				var isTabPressed = e.key === 'Tab' || e.keyCode === 9;
+				if (isTabPressed) {
+					// tab + shift -> 이전 요소로 이동
+					if (document.activeElement === lastFocusableElement && !e.shiftKey) {
+						// 메뉴의 마지막 요소에서 tab키 입력시 메뉴 숨기기
+						if(!$('.gnb').is(':hover')){
+							$('.before').prop('style','display:none');
+							$(".s_gnb").prop('style','display:none');
+						}
+					}
+					else if(document.activeElement === firstFocusableElement && e.shiftKey) {
+						// 메뉴의 첫번째 요소에서 tab+shift키 입력시 메뉴 숨기기
+						if(!$('.gnb').is(':hover')){
+							$('.before').prop('style','display:none');
+							$(".s_gnb").prop('style','display:none');
+						}
+					}
+				}
+			});
+
+			$('.gnb ul li > a').on('click', function() {
+				if(!($(this).attr("target") == "_blank")){
+					$("#div_load_image").addClass("on");
+				}
+			});
+			$('.gnb ul li > a').on('focusin', function() {
+				$('.before').prop('style','display:block');
+				$('.s_gnb').prop('style','display:block');
+				$('.gnb').prop('style','display:block');
+				$(".s_gnb").fadeIn(200);
+			});
+
+			// Tab키 메뉴 초점이 되고, 다른 곳 클릭 할 경우 메뉴 안보이도록 수정
+/* 			$('#wrap').click(function(){
+				$('.before').prop('style','display:none');
+				$(".s_gnb").prop('style','display:none');
+			}); */
+
+			//메인페이지 상단 배너 초점
+			$('.slide_item_main').focus(function(){
+				$(".slide_item_main div").attr('style', 'outline:auto');
+			});
+
+			$('.slide_item_main').focusout(function(){
+				$(".slide_item_main div").attr('style', 'outline:none');
+			});
+		}
+		
+		var target = $(".header .gnb div.before")[0];
+		var target2 = $(".s_gnb")[0];
+		var previousValue = "";
+		var previousValue2 = "";
+		var observer = new MutationObserver(function(mutations) {
+			mutations.forEach(function(mutation) {
+				if (mutation.attributeName !== 'style') {
+					return;
+				}
+				var currentValue = mutation.target.style.display;
+				if (currentValue !== previousValue) {
+					if (previousValue !== "none" && currentValue === "none") {
+						$(".s_gnb").prop("display","none");
+					} else if (previousValue !== "block" && currentValue === "block") {
+						$(".s_gnb").prop("display","block");
+					}
+					previousValue = mutation.target.style.display;
+				}
+			});
+		});
+		
+		var observer2 = new MutationObserver(function(mutations) {
+			mutations.forEach(function(mutation) {
+				if (mutation.attributeName !== 'style') {
+					return;
+				}
+				var currentValue2 = mutation.target.style.display;
+				if (currentValue2 !== previousValue2) {
+					if (previousValue2 !== "none" && currentValue2 === "none") {
+						$(".header").prop("display","none");
+					} else if (previousValue2 !== "block" && currentValue2 === "block") {
+						$(".header").prop("display","block");
+					}
+					previousValue2 = mutation.target.style.display;
+				}
+			});
+		});
+		if(target){
+			observer.observe(target, { attributes: true });
+		}
+		
+		if(target2){
+			observer2.observe(target2, { attributes: true });
+		}
+		// 속보성 대시보드 클릭 로그 저장
+		$("[menu-seq=152]").attr('onclick','fn_openPopupClinkLog("/dashboard.do","_blank","6","");return false;');
+		
+		setZoom(100); // 화면크기 기본값 보통
+	});
+
+	//top 배너
+	$(function() {
+		// 상단 배너 반응형 변경 (2022-05-20 추가) 
+		$('.main_top_banner').slick({
+	        dots: false,
+	        prevArrow: $('.btn_slide_prev_main'),
+	        nextArrow: $('.btn_slide_next_main'),
+	        autoplaySpeed : 10000
+	    });
+		// 페이지 로드 시 자동 슬라이드 
+		$('.main_top_banner').slick('slickPlay');
+
+        $(".btn_slide_stop_main").click(function() {
+            $('.main_top_banner').slick('slickPause')
+            $('.btn_slide_play_main').css('display', 'block');
+            $(this).css('display', 'none');
+        });
+
+        $(".btn_slide_play_main").click(function() {
+            $('.main_top_banner').slick('slickPlay');    // 시작
+            $('.btn_slide_stop_main').css('display', 'block');
+            $(this).css('display', 'none');
+        });
+
+	});
+	
+	// 연계시스템(통합로그인에서 명칭 수정-최준영 주무관)
+	function fn_mssLogin(){
+		window.open("/see/cmmn/selectMss24LoginPopup.do", '중소벤처24 통합로그인', 'scrollbars=no, location=no, width=840, height=850');
+	}
+	
+	function fn_onePassManage(){
+		var hostURL = window.location.host;
+   	    var loginUrl = "";
+   	    var uuid = "";
+    	    // 운영
+    	    if (hostURL.indexOf("www.bizinfo.go.kr") > -1) {
+
+    	        loginUrl = "https://www.bizinfo.go.kr";
+    	    // 개발
+    	    } else if(hostURL.indexOf("www.devbizinfo.store") > -1) {
+
+    	        loginUrl = "http://www.devbizinfo.store:8888/bizinfo";
+    	    } else if(hostURL.indexOf("devbizinfo.store") > -1) {
+    	    	loginUrl = "http://devbizinfo.store/bizinfo";
+    		}else {
+    	    	loginUrl = "http://localhost";
+    	    }
+    	    if("" == "100008"){
+        	    window.location.href = 'https://onepass.smes.go.kr/mypage-business/information?redirect_uri='+loginUrl+'/member/modifyStep1.do?client_id=kosi-bizinfo-prd&uuid='+uuid;
+    	    }else{
+    	    	window.location.href = 'https://onepass.smes.go.kr/mypage-member/information?redirect_uri='+loginUrl+'/member/modifyStep1.do?client_id=kosi-bizinfo-prd&uuid='+uuid;
+    	    }
+		
+	}
+	
+	function fn_onePassRegist(){
+		var hostURL = window.location.host;
+   	    var loginUrl = "";
+    	    // 운영
+    	    if (hostURL.indexOf("www.bizinfo.go.kr") > -1) {
+
+    	        loginUrl = "https://www.bizinfo.go.kr/oauth2/authorization/oidc";
+    	    // 개발
+    	    } else if(hostURL.indexOf("www.devbizinfo.store") > -1) {
+
+    	        loginUrl = "http://www.devbizinfo.store:8888/bizinfo";
+    	    } else if(hostURL.indexOf("devbizinfo.store") > -1) {
+    	    	loginUrl = "http://devbizinfo.store/bizinfo";
+    		}else {
+    	    	loginUrl = "http://localhost";
+    	    }
+    	    window.location.href = 'https://onepass.smes.go.kr/register/step1?type=member&return_client=kosi-bizinfo-prd&return_uri='+loginUrl;
+	}
+	
+</script>
+<!-- e: header -->
+</body>
+</html>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+        	
+        	//현재 년월일 가져오기
+        	var today = new Date();
+        	//년도
+        	var year = today.getFullYear();
+        	var month = today.getMonth() + 1;
+        	var day = today.getDate();
+
+        	if (month < 10) {
+        	    month = '0' + month;
+        	}
+        	if (day < 10) {
+        	    day = '0' + day;
+        	}
+        	
+        	var cookiedata = document.cookie;
+        	
+        	if (cookiedata.indexOf("popup=done") < 0 && year+month+day < '20260401') {
+        		window.open("/sampleBanner.html", "중소기업 지원사업 종합설명회" ,"width=650,height=685,resizable=yes,scrollbars=yes");
+        	}
+
+        	$(".date").text("(" + year + "년 " + month + "월 " + day +"일 기준)");
+
+        	// 메인 공고 슬라이드
+        	fn_supportSwiper();
+
+        	// 분야,중앙부처,지자체별 상세값들의 첫번째 값이 addClass("on") 되도록 초기화
+        	$("#realmLclas li:first-child a").addClass("on");
+        	$("#jrsdGInsttList li:first-child a").addClass("on");
+        	$("#jrsdLInsttList li:first-child a").addClass("on");
+
+        	// 분야,중앙부처,지자체별 상세값들
+        	var realmChildVal = $("#realmLclas li:first-child a").data("code");
+        	var jrsdGChildVal = $("#jrsdGInsttList li:first-child a").data("code");
+        	var jrsdLChildVal = $("#jrsdLInsttList li:first-child a").data("code");
+
+        	// 분야,중앙부처,지자체 중 선택된 값
+        	var selectedValue = $(".tab-list01 > li > a.on").data("code");
+
+        	// 지원사업공고 표출 값 초기화(분야별 + 금융)
+        	fn_showPblancIdList(selectedValue, realmChildVal);
+
+            // tab-list01 click function
+            $(".tab-list01 > li > a").on("click", function (e) {
+            	e.preventDefault();
+
+            	var titleDiv = document.getElementById('categoryTitile');
+            	var idx = $(this).parent().index();
+
+			  	$(".tab-list01 > li > a").removeClass("on");
+			  	$(this).addClass("on");
+			  	$(".tab-list02").hide();
+
+			  	if (idx === 0) {
+			  		titleDiv.innerHTML = '분야별 지원사업 공고';
+			  		$("#realmLclas").show();
+			  		fn_showPblancIdList('01',realmChildVal);
+			  		$(".tab-list02 > li > a").removeClass("on");
+			  		$("#realmLclas li:first-child a").addClass("on");
+			  	} else if (idx === 1) {
+			    	titleDiv.innerHTML = '부처별 지원사업 공고';
+			    	$("#jrsdGInsttList").show();
+			    	fn_showPblancIdList('02',jrsdGChildVal);
+			    	$(".tab-list02 > li > a").removeClass("on");
+			    	$("#jrsdGInsttList li:first-child a").addClass("on");
+			  	} else {
+			    	titleDiv.innerHTML = '지자체별 지원사업 공고';
+			    	$("#jrsdLInsttList").show();
+			    	fn_showPblancIdList('03',jrsdLChildVal);
+			    	$(".tab-list02 > li > a").removeClass("on");
+			    	$("#jrsdLInsttList li:first-child a").addClass("on");
+			  	}
+            });
+
+			// tab-list02 click function
+			$(".tab-list02 > li > a").on("click", function(e) {
+			    e.preventDefault();
+
+				var activeId = $(".tab-list01 > li > a.on").attr("id");
+			    var activeValue = "";
+			    $(this).closest("ul").find("li a").removeClass("on");
+			    $(this).addClass("on");
+			    var code = $(this).data("code");
+
+			    if(activeId == 'activeId01') {
+			    	activeValue = '01';
+			    } else if(activeId == 'activeId02') {
+			    	activeValue = '02';
+			    } else {
+			    	activeValue = '03';
+			    }
+			    fn_showPblancIdList(activeValue, code);
+
+			});
+			
+			$('#moreBtn').on('click', function(e){
+				var type = $(".tab-list01 > li > a.on").data("code");
+				var code = $(".tab-list02:visible li a.on").data("code");
+	
+				var url = "/sii/siia/selectSIIA200View.do?";
+	
+				// 분야별 
+				if(type == '01'){ 
+					url += "hashCode=" + code;
+				} 
+				// 부처별
+				else if(type == '02'){ 
+					url += "schJrsdCodeTy=" +type+"&schAreaDetailCodes="+code;
+				} 
+				// 지자체별
+				else if(type == '03'){ 
+				    url += "schJrsdCodeTy=" +3+"&schAreaDetailCodes=" + code;
+				}
+				location.href = url;
+			});
+			
+            loadPopKeyword();
+
+            $(".slick-dots").remove();
+
+    		//2022 웹접근성 수정. 카드형 포커스 순서 선형구조.
+   			$('.main_cont_2 .main_tab button').click(function(){
+   				$('.main_cont_2 .main_tab button').each(function(){
+   					$(this).attr('title',$(this).text());
+   				})
+   				$(this).attr('title', $(this).text() + ' 선택됨');
+   			});
+
+   			$('.main_cont_2').find('button, a').keydown(function(k){
+   				if(k.key == 'Tab'){ // 탭키 눌렀을 때
+   					if( fn_chkPrnt(this, '.tab_list') ){ // 메뉴 탭에서 tab키
+
+   						if(k.shiftKey){ // 이전 선택
+   							if(fn_chkPrnt(this, '.tab_list:last')){ // 마지막탭에서
+   								k.preventDefault(); // 포커스 조작을 위한 event prevent
+   								$('.main_cont_2 .tab_list:nth-last-child(2) button').focus(); // 마지막탭 이전 탭으로 포커스
+   							}
+
+   						} else { // 다음 선택
+   							if( fn_chkPrnt(this, '.active')){ // 선택 되어있던 탭
+   								k.preventDefault();
+
+   								if(fn_chkPrnt(this, '.tab_list:last')) {
+   									$('.main_tab_cont .active a').first().focus();
+   								} else {
+	   								$('.main_cont_2 div.total_number a').focus(); // 공고건수로 포커스
+   								}
+
+   							} else if(fn_chkPrnt(this, '.tab_list:last')){ // 마지막 탭이 비활성화 되어있을 때 tab키 누르면 하단 아이콘 첫번째로 포커스
+   								k.preventDefault();
+   								$('.main_cont_3 .icon_list:first a').focus();
+   							}
+   						}
+
+   					} else if( fn_chkPrnt(this, '.total_more') ){ // 더보기+ 버튼에서 tab키
+   						if(k.shiftKey){ // 이전 선택
+   							k.preventDefault();
+   							$('.main_cont_2 .btn_rolling_next').focus(); // 슬라이드 다음 버튼 포커스
+
+   						} else { // 다음 선택
+   							k.preventDefault();
+   							if($('.main_cont_2 .tab_list:last').is('.active')){ // 마지막 탭 선택되어 있는 경우 하단 아이콘 첫번째로 포커스
+   								$('.main_cont_3 .icon_list:first a').focus();
+
+   							} else { // 선택된 탭 다음 탭으로 포커스
+   								$('.main_cont_2 .main_tab .active').next('div').find('button').focus();
+
+   							}
+   						}
+
+   					} else if(fn_chkPrnt(this, '.total_number')){ // 공고 건수 포커스 시
+   						if(k.shiftKey){ // 뒤로 갈때
+   							k.preventDefault();
+   							$('.main_cont_2 .main_tab .active button').focus(); // 선택된 탭 포커스
+   						}
+   					}
+   				}
+   			});
+
+   			$('.main_cont_3 .icon_list:first a').keydown(function(k){ // 하단 첫번째 아이콘에서
+   				if(k.key == 'Tab' && k.shiftKey){ // 이전 요소로 tab 할때
+   					k.preventDefault();
+   					if($('.main_cont_2 .tab_list:last').is('.active')){ // 마지막 탭 선택되어 있는 경우 더보기+로 포커스
+   						$('.main_tab_cont .active a').last().focus();
+
+   					} else { // 마지막 탭으로 포커스
+   						$('.main_cont_2 .tab_list:last button').focus();
+   					}
+   				}
+   			});
+   			//2022 웹접근성 수정. 카드형 포커스 순서 선형구조. 끝.
+
+   			//2023.05.23 통합검색 연산자 검색방법에 대한 설명
+   			$(".totalSearchInfo").mouseover(function(){
+   				$(".totalSearchInfoCn").prop('style','display:block');
+   			})
+
+   			$(".totalSearchInfo").mouseout(function(){
+   				$(".totalSearchInfoCn").prop('style','display:none');
+   			})
+
+   			
+   			$('#ark_close').on('click', function() {
+   			    $('.main_search_input').focus();
+   			});
+
+        });
+
+        // 지원사업 공고 추출
+        function fn_showPblancIdList(activeValue, code) {
+            var hiddenContainer = document.getElementById("hiddenSupportList");
+            var allItems = hiddenContainer.getElementsByClassName("list");
+            var showContainer = document.getElementById("mainSupportList");
+            var html = "";
+
+            if(activeValue == '01') { //분야별
+            	for (var i = 0; i < allItems.length; i++) {
+
+                    var item = allItems[i];
+                    var inputs = item.getElementsByTagName("input");
+
+                    var lclasDiv  = inputs[0].value;
+                    var sportCode = inputs[1].value;
+
+                    if (lclasDiv === activeValue && sportCode === code) {
+                        html += item.outerHTML;
+                    }
+                }
+
+                showContainer.innerHTML = html;
+                $("#mainSupportList").find(".LclaNmVal").hide(); // 분야별 지원사업 공고 슬라이드 내 분야값 중복되어 숨김
+                fn_supportSwiper();
+
+            } else if(activeValue == '02') { //중앙부처
+            	for (var i = 0; i < allItems.length; i++) {
+
+                    var item = allItems[i];
+                    var inputs = item.getElementsByTagName("input");
+                    var lclasDiv  = inputs[0].value;
+                    var JrsdCode = inputs[2].value;
+
+                    if (lclasDiv === activeValue && JrsdCode == code) {
+                        html += item.outerHTML;
+                    }
+
+                }
+
+                showContainer.innerHTML = html;
+                fn_supportSwiper();
+
+            } else { //지자체
+				for (var i = 0; i < allItems.length; i++) {
+
+                    var item = allItems[i];
+                    var inputs = item.getElementsByTagName("input");
+                    var lclasDiv  = inputs[0].value;
+                    var JrsdCode = inputs[2].value;
+
+                    if (lclasDiv === activeValue && JrsdCode == code) {
+                        html += item.outerHTML;
+                    }
+
+                }
+
+                showContainer.innerHTML = html;
+                fn_supportSwiper();
+
+            }
+        }
+
+        // 지원사업 공고 슬라이드 function (support-link-container 클릭 시 해당 슬라이드로 이동)
+        function fn_supportSwiper() {
+
+        	if (window.supportSwiperInstance) {
+                window.supportSwiperInstance.destroy(true, true);
+            }
+
+            const supportSwiper = new Swiper('.main-support-swiper', {
+                slidesPerView: 'auto', // 기본값 (580px 미만 화면용)
+                spaceBetween: 10,
+                loop: true,
+                centeredSlides: true,
+                navigation: {
+                    nextEl: '.btn_rolling_next',
+                    prevEl: '.btn_rolling_prev',
+                },
+                breakpoints: {
+                    580: {
+                    		slidesPerView: 'auto',
+                    		spaceBetween: 10
+                    	 },
+                    768: {
+                    		slidesPerView: 2,
+                    		spaceBetween: 15
+                    	  },
+                    1024: {
+                    		slidesPerView: 3,
+                    		spaceBetween: 20
+                    	  },
+                    1200: {
+                    		slidesPerView: 4,
+                    		spaceBetween: 20
+                    	  },
+                }
+            });
+
+            // 전역에 저장
+            window.supportSwiperInstance = supportSwiper;
+
+            // 클릭 이벤트 바인딩
+            $('.support-link-container').off('click').on('click', function (e) {
+                e.preventDefault();
+                //const index = $(this).index();
+                const index = $(this).closest('.swiper-slide').data('swiper-slide-index'); // 선택된값으로 클릭이벤트 바인딩
+                supportSwiper.slideToLoop(index);
+            });
+
+        }
+
+        // 공고 새창열기
+        function fn_pblancView(pblancId) {
+        	var baseUrl = '/sii/siia/selectSIIA200Detail.do';
+       	  	var url = baseUrl + '?pblancId=' + pblancId;
+        	window.open(url, '_blank');
+        }
+
+		// button, a의 parent div 체크. 2022 웹접근성
+        function fn_chkPrnt(a, p){
+			return $(a).parents('div').is(p);
+		}
+
+        function loadPopKeyword () {
+            $("#div_load_image").removeClass("on");
+            $.ajax({
+                type: "POST",
+                url: "/web/searchpopword.do",
+                data: {},
+                dataType: 'json',
+                success: function (data) {
+                	var ellipsisFlag = true // 줄임표 사용 여부
+                	var ellipsisLen = 6 // 띄어쓰기 포함 표시 할 글자 수
+                    var popWordArray = data.Data.Query;
+                    var ii = 1;
+                    var htmlPopword = '<ul>';
+                    for (var key in popWordArray) {
+                    	if(key > 0 && key < 6){
+                            htmlPopword += '<li>';
+                            /*if(ellipsisFlag == true && popWordArray[key]["content"].length > ellipsisLen) {
+                            	htmlPopword += '<a href="/web/lay1/program/S1T1C173/web/search.do?query=' + popWordArray[key]["content"].replace('&','%26') + '\" onClick="javascript:dftSchKwd(\'' + popWordArray[key]["content"] + '\');" title="'+popWordArray[key]["content"]+' 검색 결과 페이지로 이동">' + "#"+ popWordArray[key]["content"].substring(0,ellipsisLen) + '...</a>';
+                            } else {
+                            	htmlPopword += '<a href="/web/lay1/program/S1T1C173/web/search.do?query=' + popWordArray[key]["content"].replace('&','%26') + '\" onClick="javascript:dftSchKwd(\'' + popWordArray[key]["content"] + '\');" title="'+popWordArray[key]["content"]+' 검색 결과 페이지로 이동">' + "#"+ popWordArray[key]["content"] + '</a>';
+                            }*/
+                            htmlPopword += '<a href="/web/search.do?query=' + popWordArray[key]["content"].replace('&','%26') + '\" onClick="javascript:dftSchKwd(\'' + popWordArray[key]["content"] + '\');" title="'+popWordArray[key]["content"]+' 검색 결과 페이지로 이동">' + "#"+ popWordArray[key]["content"] + '</a>';
+                            htmlPopword += '</li>';
+                            ii++;
+                    	}
+
+                        if (ii == 7) {
+                            htmlPopword += '</ul>';
+                        }
+                    }
+                    $('.words').html(htmlPopword);
+                },
+                error: function (request, status, error) {
+
+                }
+            });
+        }
+
+        //뒤로가기 이벤트
+        window.onpageshow = function (event) {
+            if (event.persisted || (window.performance && window.performance.navigation.type == 2)) {
+                $("#div_load_image").removeClass("on");
+            }
+        }
+
+        $(function () {
+            $(document).on("click", "#qryBtn", function (event) {
+                event.preventDefault();
+                doSearch();
+            });
+
+            $("#query").keydown(function (event) {
+                if (event.keyCode == 13) {
+                    event.preventDefault();
+                    doSearch();
+                }
+            });
+
+            // 2022.03.28. 추가. 스카이팝업 등록시 팝업창 띄움.
+            if("[]" != null && "[]" != ''){
+                
+            }
+
+        })
+
+        // 2022.03.21. 추가. 페이지 로드 시 메인베너 슬라이드 자동 실행.
+		window.addEventListener('load', function(){
+			$('.mainBanner').slick('slickPlay');
+		});
+
+        function doSearch() {
+        	var regExp = /[<>\'\"]/gi;
+        	var query = $('#query').val().trim();
+        	
+            $("#div_load_image").removeClass("on");
+            if ($('#query').val() == '') {
+                alert('키워드를 입력하세요.');
+                $('#query').focus();
+                return;
+            }else if(regExp.test(query)){
+            	alert("<,>,\",\'를 제외한 검색어를 입력해주세요.");
+    			$("#div_load_image").hide();
+    			return;
+    		}
+
+            $("#div_load_image").addClass("on");
+            callKwdCookie($('#query').val().trim().replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"));
+            $("#searchForm").submit();
+        };
+
+        //뉴스레터 신청 팝업
+        function fn_ceoAlert() {
+        	window.open("/see/seeh/selectSEEH120P.do", '뉴스레터 신청', 'width=800,height=850,resizable=yes,scrollbars=yes');
+        }
+
+        $(window).on('resize', function() {
+        	  if ($(window).width() <= 460) {
+        	    $('.main_search_input').attr('placeholder', '');
+        	  } else {
+        	    $('.main_search_input').attr('placeholder', '지역별 사업은 "정책정보 > 지원사업 공고" 메뉴 참조');
+        	  }
+        });
+
+		
+		$(document).on("keypress", ".speed_dash", function(){
+			if(event.keyCode == 13){
+				fn_openPopupClinkLog('/dashboard.do','_blank','6','');
+			}
+		});
+
+		$(document).on("keypress", ".img_bsns_book", function(event){
+			if(event.keyCode == 13){
+				location.href = "https://www.bizinfo.go.kr/web/lay1/bbs/S1T157C158/AU/112/view.do?article_seq=83313";
+			}
+		});
+
+        $(function () {
+
+          $(".btn_slide_stop").click(function () {
+            // stop_slide();
+            $('.main_visual_slides').slick('slickPause')
+            $('.btn_slide_play').css('display', 'block');
+            $(this).css('display', 'none');
+          });
+
+          $(".btn_slide_play").click(function () {
+            // play_slide();
+            $('.main_visual_slides').slick('slickPlay');    // 시작
+            $('.btn_slide_stop').css('display', 'block');
+            $(this).css('display', 'none');
+          });
+        });
+    </script>
+</head>
+<body>
+<!-- visual배너  -->
+
+	
+	
+	
+
+<section class="main-search-container" id="container">
+    <!-- 로딩바 -->
+    <div id="div_load_image">
+        <img src="/images/sub/viewLoading.gif" alt="로딩중">
+    </div>
+    <div class="slogan">중소벤처기업부가 <strong><span>중소기업</span>과 <span>정책</span>을 연결합니다</strong></div>
+    
+    <div class="search-form-container">
+    	<div class="search-form-container-inner">
+    		<div class="popular-search-words">
+    			<div class="title">인기 검색어</div>
+    			<div class="words">
+    			</div>
+    		</div>
+    		<form name="searchForm" id="searchForm" action="/web/search.do"  method="POST" style="width:100%">
+    		<div class="search-input-container">
+    			<input type="text" id="query" name="query" placeholder="검색어를 입력해주세요.">
+			</div>
+    	</div>
+    	<button type="button" id="qryBtn" class="btn_search">
+    		<img src='/images/main/ico-search.png' alt="검색">
+    	</button>
+    </div>
+    
+	<div class="request-biz-status">
+        <div class="title">신청 가능한 지원사업</div>
+        <div class="date"></div>
+        &nbsp;
+        <div class="cnt">1,435건</div>
+   	</div>
+</section>
+
+<section class="main-dashboard-container">
+	<div class="center-card-container">
+		<!-- s: main_visual -->
+		<div class="main_visual" style="position: relative;">
+			<div class="main_visual_slides mainBanner">
+				
+				
+               
+					
+						<div class="list">
+							<a
+								
+								href="https://www.k-startup.go.kr/onestop/main/index.do" title="스타트업 원스톱 지원센터 새창으로 열림" target="_blank"
+								onclick="javascript:fn_openPopupClinkLog('https://www.k-startup.go.kr/onestop/main/index.do','01','_blank','FILE_000000000775550'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000775550"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="스타트업 원스톱 지원센터 새창으로 열림" />
+							</a>
+						</div>
+					
+						<div class="list">
+							<a
+								
+								href="https://www.facebook.com/mss1357/posts/pfbid0E9oJF42h5g2C7X5853zQYQzg5msrFXQbhKJELYfMi2LBzXjsNgqDtCHMCVnnM18ol?rdid=opjP206EIIK3KfWl#" title="벤처투자 얼마나 커졌을까? 새창으로 열림" target="_blank"
+								onclick="javascript:fn_openPopupClinkLog('https://www.facebook.com/mss1357/posts/pfbid0E9oJF42h5g2C7X5853zQYQzg5msrFXQbhKJELYfMi2LBzXjsNgqDtCHMCVnnM18ol?rdid=opjP206EIIK3KfWl#','01','_blank','FILE_000000000774173'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000774173"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="벤처투자 얼마나 커졌을까? 새창으로 열림" />
+							</a>
+						</div>
+					
+						<div class="list">
+							<a
+								
+								href="https://www.bizinfo.go.kr/biz/biza/selectBIZA300Detail.do?lgsltAdministNtfcId=LGSL_000000000000170" title="중소벤처기업부 규제예보 리스트 9월 2차 입법예고" target="_self"
+								onclick="javascript:fn_openPopupClinkLog('https://www.bizinfo.go.kr/biz/biza/selectBIZA300Detail.do?lgsltAdministNtfcId=LGSL_000000000000170','01','','FILE_000000000775798'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000775798"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="중소벤처기업부 규제예보 리스트 9월 2차 입법예고" />
+							</a>
+						</div>
+					
+						<div class="list">
+							<a
+								
+								href="https://www.youtube.com/watch?v=zWhCch-kz-U" title="2027 성장 오디세이(중소벤처기업부 주요 예산안) 새창으로 열림" target="_blank"
+								onclick="javascript:fn_openPopupClinkLog('https://www.youtube.com/watch?v=zWhCch-kz-U','01','_blank','FILE_000000000772412'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772412"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="2027 성장 오디세이(중소벤처기업부 주요 예산안) 새창으로 열림" />
+							</a>
+						</div>
+					
+						<div class="list">
+							<a
+								
+								href="https://blog.naver.com/bizinfo1357/224397493840" title="2027년 예산안 발표, 중기부 예산 역대 최대 18조 724억 원 편성 새창으로 열림" target="_blank"
+								onclick="javascript:fn_openPopupClinkLog('https://blog.naver.com/bizinfo1357/224397493840','01','_blank','FILE_000000000772011'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772011"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="2027년 예산안 발표, 중기부 예산 역대 최대 18조 724억 원 편성 새창으로 열림" />
+							</a>
+						</div>
+					
+						<div class="list">
+							<a
+								
+								href="https://blog.naver.com/bizinfo1357/224369847420" title="벤처투자ㆍ창업ㆍ사업승계 이렇게 달라집니다! 2026년 세제개편안 중소기업 분야 핵심정리 새창으로 열림" target="_blank"
+								onclick="javascript:fn_openPopupClinkLog('https://blog.naver.com/bizinfo1357/224369847420','01','_blank','FILE_000000000768083'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000768083"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="벤처투자ㆍ창업ㆍ사업승계 이렇게 달라집니다! 2026년 세제개편안 중소기업 분야 핵심정리 새창으로 열림" />
+							</a>
+						</div>
+					
+						<div class="list">
+							<a
+								
+								href="https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000742387&fileSn=1" title="2026년 중소기업조세지원 제도 중소벤처기업부 한국세무사회" target="_blank"
+								onclick="javascript:fn_openPopupClinkLog('https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000742387&fileSn=1','01','_blank','FILE_000000000764599'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000764599"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="2026년 중소기업조세지원 제도 중소벤처기업부 한국세무사회" />
+							</a>
+						</div>
+					
+						<div class="list">
+							<a
+								
+								href="https://www.youtube.com/watch?v=H_-doODQSKo" title="2026년 중기부 창업지원정책 총정리! 유니콘 브릿지, 성장사다리 구축, 글로벌 지원 단계별 패키지부터 글로벌 진출까지 새창으로 열림" target="_blank"
+								onclick="javascript:fn_openPopupClinkLog('https://www.youtube.com/watch?v=H_-doODQSKo','01','_blank','FILE_000000000753769'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000753769"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="2026년 중기부 창업지원정책 총정리! 유니콘 브릿지, 성장사다리 구축, 글로벌 지원 단계별 패키지부터 글로벌 진출까지 새창으로 열림" />
+							</a>
+						</div>
+					
+						<div class="list">
+							<a
+								
+								href="https://www.ultari.go.kr/site/cntnts/CNTNTS_059.do" title="중소기업 기술탈취 신문고 신고 접수 후, 해당 전문기관 연계까지 원스톱으로 도와드립니다. 기술탈취 신문고 신고하기 새창열림" target="_blank"
+								onclick="javascript:fn_openPopupClinkLog('https://www.ultari.go.kr/site/cntnts/CNTNTS_059.do','01','_blank','FILE_000000000754000'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000754000"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="중소기업 기술탈취 신문고 신고 접수 후, 해당 전문기관 연계까지 원스톱으로 도와드립니다. 기술탈취 신문고 신고하기 새창열림" />
+							</a>
+						</div>
+					
+						<div class="list">
+							<a
+								
+								href="https://www.bizinfo.go.kr/biz/biza/selectBIZA400Detail.do?year=&rows=15&cpage=1&mnthngSmlpzPolicyId=WBZN_000000000000640" title="월간 중기누리(모두의 성장)" target="_self"
+								onclick="javascript:fn_openPopupClinkLog('https://www.bizinfo.go.kr/biz/biza/selectBIZA400Detail.do?year=&rows=15&cpage=1&mnthngSmlpzPolicyId=WBZN_000000000000640','01','','FILE_000000000773049'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000773049"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="월간 중기누리(모두의 성장)" />
+							</a>
+						</div>
+					
+						<div class="list">
+							<a
+								
+								href="https://m.work24.go.kr/cm/c/f/1100/selecSystInfo.do?sortTycd=&currentPageNo=1&recordCountPerPage=10&upprSystClId=&systClId=SC00000117&systId=SI00000318" title="2026년 고용노동부 청년일자리도약장려금 고용부담 줄이는 720 채용 후 연 최대 720만원 기업 지원금 근무 기회 더하는 720 2년 근속 시 최대 720만원 청년근속인센티브 새창으로 열림" target="_blank"
+								onclick="javascript:fn_openPopupClinkLog('https://m.work24.go.kr/cm/c/f/1100/selecSystInfo.do?sortTycd=&currentPageNo=1&recordCountPerPage=10&upprSystClId=&systClId=SC00000117&systId=SI00000318','01','_blank','FILE_000000000752919'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000752919"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="2026년 고용노동부 청년일자리도약장려금 고용부담 줄이는 720 채용 후 연 최대 720만원 기업 지원금 근무 기회 더하는 720 2년 근속 시 최대 720만원 청년근속인센티브 새창으로 열림" />
+							</a>
+						</div>
+					
+						<div class="list">
+							<a
+								
+								href="https://www.bizinfo.go.kr/biz/biza/selectBIZA200Detail.do?policyNewsId=NEWS_000000000000226&condition=&keyword=&rows=15&cpage=1" title="중소벤처기업부 ,  2026년 소상공인 정책 방향을 발표" target="_self"
+								onclick="javascript:fn_openPopupClinkLog('https://www.bizinfo.go.kr/biz/biza/selectBIZA200Detail.do?policyNewsId=NEWS_000000000000226&condition=&keyword=&rows=15&cpage=1','01','','FILE_000000000747207'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000747207"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="중소벤처기업부 ,  2026년 소상공인 정책 방향을 발표" />
+							</a>
+						</div>
+					
+						<div class="list">
+							<a
+								
+								href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119239" title="2026년 온렌딩대출 한국산업은행 정책자금 한국산업은행  준법감사안 심의필 제2026-02-001호 2026년 2월 25일부터 2027년 2월 24일까지" target="_self"
+								onclick="javascript:fn_openPopupClinkLog('https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119239','01','','FILE_000000000745840'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000745840"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="2026년 온렌딩대출 한국산업은행 정책자금 한국산업은행  준법감사안 심의필 제2026-02-001호 2026년 2월 25일부터 2027년 2월 24일까지" />
+							</a>
+						</div>
+					
+						<div class="list">
+							<a
+								
+								href="https://blog.naver.com/bizinfo1357/224171122842" title="보도설명드립니다 중기부는 제3자 부당개입 문제해결을 위해 모든 역량을 집중하고 향후 법제화시 현장의견을 충분히 수렴할 계획입니다 2026년 2월 3일자 매일일보 작성 대행 불법아 아냐 브로커 근절 외친 중기부 오히려 시장키웠다 보도에 대해 다음과 같이 설명드립니다 새창열림" target="_blank"
+								onclick="javascript:fn_openPopupClinkLog('https://blog.naver.com/bizinfo1357/224171122842','01','_blank','FILE_000000000742911'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000742911"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="보도설명드립니다 중기부는 제3자 부당개입 문제해결을 위해 모든 역량을 집중하고 향후 법제화시 현장의견을 충분히 수렴할 계획입니다 2026년 2월 3일자 매일일보 작성 대행 불법아 아냐 브로커 근절 외친 중기부 오히려 시장키웠다 보도에 대해 다음과 같이 설명드립니다 새창열림" />
+							</a>
+						</div>
+					
+						<div class="list">
+							<a
+								
+								href="https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000745908&amp;fileSn=0" title="국제인증, 국제인증플러스 전시회 목록 2026년 수출바우처 활용 가능 전시회 안내 자세히보기 새창열림 파일다운로드 " target="_blank"
+								onclick="javascript:fn_openPopupClinkLog('https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000745908&amp;fileSn=0','01','_blank','FILE_000000000754001'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000754001"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="국제인증, 국제인증플러스 전시회 목록 2026년 수출바우처 활용 가능 전시회 안내 자세히보기 새창열림 파일다운로드 " />
+							</a>
+						</div>
+					
+						<div class="list">
+							<a
+								
+								href="https://vacation.visitkorea.or.kr/travel/worker/renewal/workerApp.do" title="대한민국 근로자가 쉬는 법 근로자 휴가지원사업 모집 2026년 1월 30일 금요일부터 선착순 10만명 지원금 소진시까지 문화체육관광부와 한국관광공사가 함께합니다 새창열림" target="_blank"
+								onclick="javascript:fn_openPopupClinkLog('https://vacation.visitkorea.or.kr/travel/worker/renewal/workerApp.do','01','_blank','FILE_000000000743937'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000743937"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="대한민국 근로자가 쉬는 법 근로자 휴가지원사업 모집 2026년 1월 30일 금요일부터 선착순 10만명 지원금 소진시까지 문화체육관광부와 한국관광공사가 함께합니다 새창열림" />
+							</a>
+						</div>
+					
+						<div class="list">
+							<a
+								
+								href="https://www.bizinfo.go.kr/biz/biza/selectBIZA200Detail.do?policyNewsId=86636&condition=TITLE&keyword=%ED%98%84%EC%9E%A5&rows=15&cpage=1" title="현장에 닿는 정책! 2026년 중소기업 핵심사업 동시 안내 중소벤처기업부" target="_self"
+								onclick="javascript:fn_openPopupClinkLog('https://www.bizinfo.go.kr/biz/biza/selectBIZA200Detail.do?policyNewsId=86636&condition=TITLE&keyword=%ED%98%84%EC%9E%A5&rows=15&cpage=1','01','','FILE_000000000740980'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000740980"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="현장에 닿는 정책! 2026년 중소기업 핵심사업 동시 안내 중소벤처기업부" />
+							</a>
+						</div>
+					
+						<div class="list">
+							<a
+								
+								href="https://www.bizinfo.go.kr/biz/biza/selectBIZA210Detail.do?cardNewsId=86592&condition=TITLE&keyword=%EB%B2%94%EC%A3%84&rows=15&cpage=1" title="기업ㆍ국민을 범죄자로 만들지 않겠습니다! 경제형벌 합리화 방안 경제형벌 합리화 방안" target="_self"
+								onclick="javascript:fn_openPopupClinkLog('https://www.bizinfo.go.kr/biz/biza/selectBIZA210Detail.do?cardNewsId=86592&condition=TITLE&keyword=%EB%B2%94%EC%A3%84&rows=15&cpage=1','01','','FILE_000000000741019'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000741019"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="기업ㆍ국민을 범죄자로 만들지 않겠습니다! 경제형벌 합리화 방안 경제형벌 합리화 방안" />
+							</a>
+						</div>
+					
+						<div class="list">
+							<a
+								
+								href="https://www.kipa.org/ip-job/index.jsp" title="2026년 상반기 무료 직무발명제도 컨설팅 신청 공고 새창열림" target="_blank"
+								onclick="javascript:fn_openPopupClinkLog('https://www.kipa.org/ip-job/index.jsp','01','_blank','FILE_000000000740342'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000740342"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="2026년 상반기 무료 직무발명제도 컨설팅 신청 공고 새창열림" />
+							</a>
+						</div>
+					
+						<div class="list">
+							<a
+								
+								href="https://www.bizinfo.go.kr/biz/biza/selectBIZA210Detail.do?cardNewsId=86711&condition=TITLE&keyword=%EB%B6%80%EB%8B%B9%EA%B0%9C%EC%9E%85&rows=15&cpage=1" title="제3자 부당개입 없는 정책자금 생태계 조성 새창열림" target="_blank"
+								onclick="javascript:fn_openPopupClinkLog('https://www.bizinfo.go.kr/biz/biza/selectBIZA210Detail.do?cardNewsId=86711&condition=TITLE&keyword=%EB%B6%80%EB%8B%B9%EA%B0%9C%EC%9E%85&rows=15&cpage=1','01','_blank','FILE_000000000733541'); retrun true;" style="text-align:-webkit-center;" >
+								<img src="/cmm/fms/getImageFile.do?atchFileId=FILE_000000000733541"	style="max-height: 310px; max-width: 450px; border-radius: 20px;" alt="제3자 부당개입 없는 정책자금 생태계 조성 새창열림" />
+							</a>
+						</div>
+					
+				
+			
+			</div>
+			<div class="visual-slide-controller">
+				<button type="button" class="visual_slide_prev" title="이전">이전</button>
+				<div class="slide_control">
+						<a href="#play_main" class="btn_slide_play" style="display: none;" title="슬라이드 배너 재생">
+			            	<img src='/images/main/ico_btn_play.png' alt="재생">
+			            </a>
+			            <a href="#stop_main" class="btn_slide_stop" style="display: block;" title="슬라이드 배너 멈춤">
+			            	<img src='/images/main/ico_btn_stop.png' alt="멈춤">
+			            </a>
+		         	</div>
+				<button type="button" class="visual_slide_next" title="다음">다음</button>
+			</div>
+			
+		</div>
+	</div>
+	<!-- e: main_visual -->
+	<div class="left-card-container">
+  		<div class="title">지원사업공고</div>
+        <ul>
+       		<li class="tooltip_parent">
+	          	<a href='/sii/siia/selectSIIA200View.do?schPblancDiv=01' style="display:flex; width:100%; justify-content: space-between; align-items:center;">
+		            <div class="key">최신공고</div>
+	            	<div class="value"><strong>106</strong>건</div>
+	           	</a>
+	           	<span class="tooltip_text" style='width: max-content; max-width: 200px; left: 0; transform: none !important; user-select: none; pointer-events: none;'>금일 기준으로 일주일 전의 공고 건수</span>
+	        </li>
+			<li class="tooltip_parent">
+	          	<a href='/sii/siia/selectSIIA200View.do?schPblancDiv=02' style="display:flex; width:100%; justify-content: space-between; align-items:center;">
+		            <div class="key">마감임박</div>
+	            	<div class="value"><strong>167</strong>건</div>
+	           	</a>
+	           	<span class="tooltip_text" style='width: max-content; max-width: 200px; left: 0; transform: none !important; user-select: none; pointer-events: none;'>금일 기준으로 신청마감공고일이 7일 이내인 공고 건수</span>
+         	</li>
+         	<li class="tooltip_parent">
+	          	<a href='/sii/siia/selectSIIA200View.do?schPblancDiv=03' style="display:flex; width:100%; justify-content: space-between; align-items:center;">
+		            <div class="key">인기공고</div>
+		            <div class="value"><strong>1,162</strong>건</div>
+	            </a>
+	            <span class="tooltip_text" style='width: max-content; max-width: 200px; left: 0; transform: none !important; user-select: none; pointer-events: none;'>조회수가 4000건 이상인 공고 건수</span>
+         	</li>
+		</ul>
+	</div>
+	<div class="right-card-container">
+	<ul>
+		<li class="tooltip_parent">
+			<a href='/sie/siea/selectSIEA430View.do'>
+	            <div class="key">행사정보 </div>
+	            <div class="value"><strong>261</strong>건</div>
+          	</a>
+            <span class="tooltip_text" style='width: max-content; max-width: 200px; left: 0; transform: none !important; user-select: none; pointer-events: none;'>2026년 진행중인 행사정보 </span>
+		</li>
+		<li class="tooltip_parent">
+          	<a href='/biz/biza/selectBIZA200View.do'>
+	            <div class="key">최신정책뉴스</div>
+	            <div class="value"><strong>1,640</strong>건</div>
+	        </a>
+	        <span class="tooltip_text" style='width: max-content; max-width: 200px; left: 0; transform: none !important; user-select: none; pointer-events: none;'>2026년 기준 정책뉴스 </span>
+		</li>
+		<li class="tooltip_parent">
+			<a href='/biz/biza/selectBIZA300View.do'>
+	            <div class="key">입법·행정예고/고시 </div>
+	            <div class="value"><strong>117</strong>건</div>
+          	</a>
+            <span class="tooltip_text" style='width: max-content; max-width: 200px; left: 0; transform: none !important; user-select: none; pointer-events: none;'>2026년 기준 입법·행정예고/고시 </span>
+		</li>
+		<li>
+            <a href='/biz/biza/selectBIZA200Detail.do?policyNewsId=86636'>
+              <span>'26년 중기지원사업</span>
+              <img src='/images/main/ico-arrow-right.png' alt="26년 중기지원사업으로 이동">
+            </a>
+		</li>
+		<li>
+            <a href='/biz/biza/selectBIZA400View.do'>
+              <span>테마별 정책정보웹진</span>
+              <img src='/images/main/ico-arrow-right.png' alt="테마별 정책정보웹진 이동">
+            </a>
+		</li>
+    </ul>
+	</div>
+</section>
+<!-- End of main-dashboard-container -->
+<section class="main-category-container">
+	<div class="title" id="categoryTitile">분야별 지원사업 공고</div>
+	<div class="category-list">
+		<ul class="tab-list01">
+			<li><a href="#" id="activeId01" data-code="01" class="on">분야별</a></li>
+          	<li><a href="#" id="activeId02" data-code="02">부처별</a></li>
+          	<li><a href="#" id="activeId03" data-code="03">지자체별</a></li>
+        </ul>
+        <div class="scrolls">
+			<ul class="tab-list02" id="realmLclas">
+				
+					<li><a href="#" class="realm-tab" data-code="01">금융</a></li>
+				
+					<li><a href="#" class="realm-tab" data-code="02">기술</a></li>
+				
+					<li><a href="#" class="realm-tab" data-code="03">인력</a></li>
+				
+					<li><a href="#" class="realm-tab" data-code="04">수출</a></li>
+				
+					<li><a href="#" class="realm-tab" data-code="05">내수</a></li>
+				
+					<li><a href="#" class="realm-tab" data-code="06">창업</a></li>
+				
+					<li><a href="#" class="realm-tab" data-code="07">경영</a></li>
+				
+					<li><a href="#" class="realm-tab" data-code="09">기타</a></li>
+				
+			</ul>
+			<ul class="tab-list02" id="jrsdGInsttList" style="display: none;">
+				
+					<li><a href="#" class="realmG-tab" data-code="1420000">중기부</a></li>
+				
+					<li><a href="#" class="realmG-tab" data-code="1450000">산업부</a></li>
+				
+					<li><a href="#" class="realmG-tab" data-code="1492000">고용부</a></li>
+				
+					<li><a href="#" class="realmG-tab" data-code="1710000">과기부</a></li>
+				
+					<li><a href="#" class="realmG-tab" data-code="1430000">지재처</a></li>
+				
+					<li><a href="#" class="realmG-tab" data-code="1480000">기후부</a></li>
+				
+					<li><a href="#" class="realmG-tab" data-code="1543000">농식품부</a></li>
+				
+					<li><a href="#" class="realmG-tab" data-code="1352000">복지부</a></li>
+				
+			</ul>
+			<ul class="tab-list02" id="jrsdLInsttList"  style="display: none;">
+				
+					<li><a href="#" class="realmL-tab" data-code="6470000">경북</a></li>
+				
+					<li><a href="#" class="realmL-tab" data-code="6410000">경기</a></li>
+				
+					<li><a href="#" class="realmL-tab" data-code="6130000">전남광주</a></li>
+				
+					<li><a href="#" class="realmL-tab" data-code="6480000">경남</a></li>
+				
+					<li><a href="#" class="realmL-tab" data-code="6420000">강원</a></li>
+				
+					<li><a href="#" class="realmL-tab" data-code="6430000">충북</a></li>
+				
+					<li><a href="#" class="realmL-tab" data-code="6260000">부산</a></li>
+				
+					<li><a href="#" class="realmL-tab" data-code="6280000">인천</a></li>
+				
+			</ul>
+        </div>
+      </div>
+      <div class="category-swiper-container">
+      	<div class="category-swiper-rela">
+          <div class="more-container">
+       		<a href ="javascript:void(0);" id="moreBtn">
+              <img src='/images/main/ico-more.png' alt="지원사업공고 더보기">
+              <span>더보기</span>
+            </a>
+          </div>
+          <!-- s: 지원사업 -->
+          <div class="main-support-swiper-container">
+            <div class="swiper-mask">
+              <!-- <div class="main-support-swiper"> -->
+                <div class="swiper-wrapper" id="hiddenSupportList" style="display:none;">
+            		
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127044'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="6110000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[금융]</span></div>
+							    
+							
+							<div class="slide-title">[서울] 은평구 2026년 4분기 중소기업육성기금 융자지원 계획 수정 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-12 ~ 2026-10-23</div>
+	                        	</div>
+	                       		<div class="dday">D-12</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127012'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="6420000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[금융]</span></div>
+							    
+							
+							<div class="slide-title">[강원] 2026년 하반기 농어촌진흥기금 지원계획 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-02 ~ 2026-10-30</div>
+	                        	</div>
+	                       		<div class="dday">D-19</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000126983'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="5690000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[금융]</span></div>
+							    
+							
+							<div class="slide-title">[세종] 2026년 중소기업 제조물배상책임(PL)보험 지원사업 참가기업 모집 공고(상시)</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-01 ~ 2026-12-31</div>
+	                        	</div>
+	                       		<div class="dday">D-81</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000126965'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="1420000"/>
+                    		
+							    
+							    
+									<div class="cate blue"><span class="LclaNmVal">[금융]</span> 인기공고</div>
+							    
+							    
+							
+							<div class="slide-title">2026년 중소벤처기업부 소상공인 정책자금 융자사업 5차 변경 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-01 ~ 2026-12-31</div>
+	                        	</div>
+	                       		<div class="dday">D-81</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000126944'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="6410000"/>
+                    		
+							    
+							    
+									<div class="cate blue"><span class="LclaNmVal">[금융]</span> 인기공고</div>
+							    
+							    
+							
+							<div class="slide-title">[경기] 안산시 2026년 소상공인 특례보증 추가 지원 계획 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-01 ~ 2026-12-31</div>
+	                        	</div>
+	                       		<div class="dday">D-81</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000126943'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="6410000"/>
+                    		
+							    
+							    
+									<div class="cate blue"><span class="LclaNmVal">[금융]</span> 인기공고</div>
+							    
+							    
+							
+							<div class="slide-title">[경기] 평택시 청년창업 특례보증 및 이차보전 지원 수정 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-01-06 ~ 2026-12-31</div>
+	                        	</div>
+	                       		<div class="dday">D-81</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000126939'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="6130000"/>
+                    		
+							    
+							    
+									<div class="cate blue"><span class="LclaNmVal">[금융]</span> 인기공고</div>
+							    
+							    
+							
+							<div class="slide-title">[전남광주] 2026년 전라남도 중소기업 육성자금 지원계획 3차 변경 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-09-23 ~ 2026-12-31</div>
+	                        	</div>
+	                       		<div class="dday">D-81</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000126927'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="1420000"/>
+                    		
+							    
+							    
+									<div class="cate blue"><span class="LclaNmVal">[금융]</span> 인기공고</div>
+							    
+							    
+							
+							<div class="slide-title">2026년 중소기업 정책자금 융자계획 변경 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-01-05 ~ 2026-12-31</div>
+	                        	</div>
+	                       		<div class="dday">D-81</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000126895'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="6430000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[금융]</span></div>
+							    
+							
+							<div class="slide-title">[충북] 음성군 소상공인 충북신용보증 보증료 지원 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-01 ~ 2026-10-23</div>
+	                        	</div>
+	                       		<div class="dday">D-12</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000126879'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="1371000"/>
+                    		
+							    
+									<div class="cate red"><span class="LclaNmVal">[금융]</span> 마감임박</div>
+							    
+							    
+							    
+							
+							<div class="slide-title">2026년 예술경영지원센터 예술산업보증 10월(7차) 공모</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-01 ~ 2026-10-12</div>
+	                        	</div>
+	                       		<div class="dday">D-1</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127086'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="02"/>
+                    		<input type="hidden" value="1710000"/>
+                    		
+							    
+							    
+									<div class="cate blue"><span class="LclaNmVal">[기술]</span> 인기공고</div>
+							    
+							    
+							
+							<div class="slide-title">2026년 기술마켓 혁신제품 지정기간 연장(2차연장) 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-07 ~ 2026-10-19</div>
+	                        	</div>
+	                       		<div class="dday">D-8</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127085'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="02"/>
+                    		<input type="hidden" value="1710000"/>
+                    		
+							    
+							    
+									<div class="cate blue"><span class="LclaNmVal">[기술]</span> 인기공고</div>
+							    
+							    
+							
+							<div class="slide-title">2026년 퀀텀(양자)플랫폼 KRISS 차세대양자연구거점사업단 양자공동연구실(JQL) 신규과제 공모</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-06 ~ 2026-11-05</div>
+	                        	</div>
+	                       		<div class="dday">D-25</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127084'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="02"/>
+                    		<input type="hidden" value="1450000"/>
+                    		
+							    
+							    
+									<div class="cate blue"><span class="LclaNmVal">[기술]</span> 인기공고</div>
+							    
+							    
+							
+							<div class="slide-title">[전북] 2026년 탄소저감형 테스트베드 활용 지원 참여기업 모집 공고(디지털트윈 농ㆍ축산시설 탄소 배출량 통합관리 플랫폼 개발 및 실증사업)</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-07 ~ 2026-10-21</div>
+	                        	</div>
+	                       		<div class="dday">D-10</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127081'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="02"/>
+                    		<input type="hidden" value="1710000"/>
+                    		
+							    
+							    
+									<div class="cate blue"><span class="LclaNmVal">[기술]</span> 인기공고</div>
+							    
+							    
+							
+							<div class="slide-title">2026년 퀀텀(양자)플랫폼 KIST 양자기술활용연구거점사업단 양자공동연구실(JQL) 신규과제 공모</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-06 ~ 2026-11-05</div>
+	                        	</div>
+	                       		<div class="dday">D-25</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127076'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="02"/>
+                    		<input type="hidden" value="1543000"/>
+                    		
+							    
+							    
+									<div class="cate blue"><span class="LclaNmVal">[기술]</span> 인기공고</div>
+							    
+							    
+							
+							<div class="slide-title">2026년 농림축산식품부 혁신제품 지정기간 연장(2차 연장) 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-06 ~ 2026-10-26</div>
+	                        	</div>
+	                       		<div class="dday">D-15</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127074'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="02"/>
+                    		<input type="hidden" value="1543000"/>
+                    		
+							    
+							    
+									<div class="cate blue"><span class="LclaNmVal">[기술]</span> 인기공고</div>
+							    
+							    
+							
+							<div class="slide-title">2026년 농림축산식품부 혁신제품 지정기간 연장(1차 연장) 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-06 ~ 2026-10-26</div>
+	                        	</div>
+	                       		<div class="dday">D-15</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127070'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="02"/>
+                    		<input type="hidden" value="1480000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[기술]</span></div>
+							    
+							
+							<div class="slide-title">2026년 해외 물시장 기술 테스트 및 검증 지원사업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-07 ~ 2026-10-26</div>
+	                        	</div>
+	                       		<div class="dday">D-15</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127066'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="02"/>
+                    		<input type="hidden" value="6300000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[기술]</span></div>
+							    
+							
+							<div class="slide-title">[대전] 2026년 4차 해외규격인증 획득지원사업 참여기업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-07 ~ 2026-10-22</div>
+	                        	</div>
+	                       		<div class="dday">D-11</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127060'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="02"/>
+                    		<input type="hidden" value="6300000"/>
+                    		
+							    
+									<div class="cate red"><span class="LclaNmVal">[기술]</span> 마감임박</div>
+							    
+							    
+							    
+							
+							<div class="slide-title">[대전] 2026년 드론 제품 판로개척을 위한 해외실증 지원 기업 모집 공고(드론산업 생태계 조성사업)</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-06 ~ 2026-10-16</div>
+	                        	</div>
+	                       		<div class="dday">D-5</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127058'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="02"/>
+                    		<input type="hidden" value="6280000"/>
+                    		
+							    
+									<div class="cate red"><span class="LclaNmVal">[기술]</span> 마감임박</div>
+							    
+							    
+							    
+							
+							<div class="slide-title">[인천] 2026년 IFEZ 스마트시티 시민참여 리빙랩 실증 프로그램 참가기업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-06 ~ 2026-10-18</div>
+	                        	</div>
+	                       		<div class="dday">D-7</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127069'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="03"/>
+                    		<input type="hidden" value="6420000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[인력]</span></div>
+							    
+							
+							<div class="slide-title">[강원] 양양군 2026년 3차 중소기업 환경개선 지원사업 참가기업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-07 ~ 2026-10-21</div>
+	                        	</div>
+	                       		<div class="dday">D-10</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127061'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="03"/>
+                    		<input type="hidden" value="1420000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[인력]</span></div>
+							    
+							
+							<div class="slide-title">[경기] 2026년 경기지역 중소기업 온라인 채용관 참가기업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-06 ~ 2026-12-11</div>
+	                        	</div>
+	                       		<div class="dday">D-61</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127031'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="03"/>
+                    		<input type="hidden" value="1420000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[인력]</span></div>
+							    
+							
+							<div class="slide-title">2026년 3차 소공인 클린제조환경조성 사업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-06 ~ 2026-10-20</div>
+	                        	</div>
+	                       		<div class="dday">D-9</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127029'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="03"/>
+                    		<input type="hidden" value="6470000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[인력]</span></div>
+							    
+							
+							<div class="slide-title">[경북] 경산시 2027년 외국인 유학생 산업캠퍼스 실습인턴제 참여 기업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-06 ~ 2027-12-31</div>
+	                        	</div>
+	                       		<div class="dday">D-446</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127028'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="03"/>
+                    		<input type="hidden" value="1450000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[인력]</span></div>
+							    
+							
+							<div class="slide-title">2026년 일본 제조혁신 실전 프로그램 참가기업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-06 ~ 2026-10-19</div>
+	                        	</div>
+	                       		<div class="dday">D-8</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127013'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="03"/>
+                    		<input type="hidden" value="1492000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[인력]</span></div>
+							    
+							
+							<div class="slide-title">[서울ㆍ인천ㆍ경기] 2026년 미래내일 일경험(인턴형) 마케팅전략디자인 직무 참여기업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-02 ~ 2026-10-19</div>
+	                        	</div>
+	                       		<div class="dday">D-8</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000126996'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="03"/>
+                    		<input type="hidden" value="6470000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[인력]</span></div>
+							    
+							
+							<div class="slide-title">[경북] 찾아가는 안전한 작업환경조성 지원사업 참여기업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-02 ~ 2026-11-30</div>
+	                        	</div>
+	                       		<div class="dday">D-50</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000126995'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="03"/>
+                    		<input type="hidden" value="6310000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[인력]</span></div>
+							    
+							
+							<div class="slide-title">[울산] 2026년 석유화학업 버팀이음프로젝트(석유화학업 현장 활력충전 지원) 참여 기업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-09-01 ~ 2026-12-31</div>
+	                        	</div>
+	                       		<div class="dday">D-81</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000126989'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="03"/>
+                    		<input type="hidden" value="1492000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[인력]</span></div>
+							    
+							
+							<div class="slide-title">[대구] 2026년 4차 대경 이음 미래모빌리티 일자리고도화 수혜기업 모집 수정 재공고(지역산업맞춤형 일자리지원사업 대경권 광역이음프로젝트)</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-02 ~ 2026-10-20</div>
+	                        	</div>
+	                       		<div class="dday">D-9</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000126953'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="03"/>
+                    		<input type="hidden" value="6310000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[인력]</span></div>
+							    
+							
+							<div class="slide-title">[울산] 2026년 청년 웰스테이 지원사업 추가 모집 연장 수정 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-01 ~ 2026-10-20</div>
+	                        	</div>
+	                       		<div class="dday">D-9</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127079'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="04"/>
+                    		<input type="hidden" value="6410000"/>
+                    		
+							    
+							    
+									<div class="cate blue"><span class="LclaNmVal">[수출]</span> 인기공고</div>
+							    
+							    
+							
+							<div class="slide-title">[경기] 2026년 지커넥션 비즈니스 데이 국내기업 추가모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-07 ~ 2026-10-28</div>
+	                        	</div>
+	                       		<div class="dday">D-17</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127075'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="04"/>
+                    		<input type="hidden" value="6470000"/>
+                    		
+							    
+									<div class="cate red"><span class="LclaNmVal">[수출]</span> 마감임박</div>
+							    
+							    
+							    
+							
+							<div class="slide-title">[경북] 성주군 2026년 중소기업 수출 스케일업 지원사업 해외무역사절단 참여기업 추가모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-07 ~ 2026-10-12</div>
+	                        	</div>
+	                       		<div class="dday">D-1</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127073'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="04"/>
+                    		<input type="hidden" value="6300000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[수출]</span></div>
+							    
+							
+							<div class="slide-title">[대전] 2026년 독일 뒤셀도르프 의료기기 전시회(MEDICA) 단체참가 참여기업 모집 공고(간접출전)</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-07 ~ 2026-10-30</div>
+	                        	</div>
+	                       		<div class="dday">D-19</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127072'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="04"/>
+                    		<input type="hidden" value="6300000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[수출]</span></div>
+							    
+							
+							<div class="slide-title">[대전] 2026년 스페인 바르셀로나 스마트시티 엑스포 단체참가 참여기업 모집 공고(간접출전)</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-07 ~ 2026-10-21</div>
+	                        	</div>
+	                       		<div class="dday">D-10</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127067'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="04"/>
+                    		<input type="hidden" value="1420000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[수출]</span></div>
+							    
+							
+							<div class="slide-title">[전북] 2026년 미국 휴스턴 K-Food 전시ㆍ수출상담회 지역 수출컨소시엄 참여기업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-06 ~ 2026-10-19</div>
+	                        	</div>
+	                       		<div class="dday">D-8</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127065'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="04"/>
+                    		<input type="hidden" value="6300000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[수출]</span></div>
+							    
+							
+							<div class="slide-title">[대전] 2026년 해외 전시박람회 개별참가 지원사업 참여기업 추가 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-07 ~ 2026-10-29</div>
+	                        	</div>
+	                       		<div class="dday">D-18</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127059'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="04"/>
+                    		<input type="hidden" value="6500000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[수출]</span></div>
+							    
+							
+							<div class="slide-title">[제주] 2026년 3차 SW융합 해외진출 패키지 지원사업 모집 공고(대구ㆍ제주 SW융합클러스터2.0사업)</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-06 ~ 2026-10-21</div>
+	                        	</div>
+	                       		<div class="dday">D-10</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127051'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="04"/>
+                    		<input type="hidden" value="6110000"/>
+                    		
+							    
+									<div class="cate red"><span class="LclaNmVal">[수출]</span> 마감임박</div>
+							    
+							    
+							    
+							
+							<div class="slide-title">[서울] 2026년 서울 라이프스타일 거점(일본) 진출사업 참여기업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-06 ~ 2026-10-16</div>
+	                        	</div>
+	                       		<div class="dday">D-5</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127050'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="04"/>
+                    		<input type="hidden" value="6110000"/>
+                    		
+							    
+									<div class="cate red"><span class="LclaNmVal">[수출]</span> 마감임박</div>
+							    
+							    
+							    
+							
+							<div class="slide-title">[서울] 2026 오세아니아(호주ㆍ뉴질랜드) 전략시장 진출 사업 참가기업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-06 ~ 2026-10-16</div>
+	                        	</div>
+	                       		<div class="dday">D-5</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127049'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="04"/>
+                    		<input type="hidden" value="6130000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[수출]</span></div>
+							    
+							
+							<div class="slide-title">[전남광주] 목포시 2026년 김 수출 안전성 검사비 지원사업 신청 추가 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-06 ~ 2026-11-30</div>
+	                        	</div>
+	                       		<div class="dday">D-50</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127088'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="05"/>
+                    		<input type="hidden" value="1420000"/>
+                    		
+							    
+							    
+									<div class="cate blue"><span class="LclaNmVal">[내수]</span> 인기공고</div>
+							    
+							    
+							
+							<div class="slide-title">[충남] 2026년 디지털콘텐츠 제작지원(팔리는 상세페이지 제작지원) 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-01 ~ 2026-10-23</div>
+	                        	</div>
+	                       		<div class="dday">D-12</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127087'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="05"/>
+                    		<input type="hidden" value="1420000"/>
+                    		
+							    
+							    
+									<div class="cate blue"><span class="LclaNmVal">[내수]</span> 인기공고</div>
+							    
+							    
+							
+							<div class="slide-title">[충남] 2026년 찾아가는 미디어 소담 스튜디오 참여 업체 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-01 ~ 2026-10-23</div>
+	                        	</div>
+	                       		<div class="dday">D-12</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127071'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="05"/>
+                    		<input type="hidden" value="6410000"/>
+                    		
+							    
+									<div class="cate red"><span class="LclaNmVal">[내수]</span> 마감임박</div>
+							    
+							    
+							    
+							
+							<div class="slide-title">2026년 광명시 기업박람회(GM TECH EXPO 2026) 참가기업 추가모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-09-29 ~ 2026-10-13</div>
+	                        	</div>
+	                       		<div class="dday">D-2</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127063'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="05"/>
+                    		<input type="hidden" value="1420000"/>
+                    		
+							    
+									<div class="cate red"><span class="LclaNmVal">[내수]</span> 마감임박</div>
+							    
+							    
+							    
+							
+							<div class="slide-title">[부산] 2026년 코리아 그랜드 페스티벌 연계 우수 소상공인 제품 현장 라이브커머스 참여 소상공인 모집 연장 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-09-17 ~ 2026-10-16</div>
+	                        	</div>
+	                       		<div class="dday">D-5</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127062'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="05"/>
+                    		<input type="hidden" value="1420000"/>
+                    		
+							    
+									<div class="cate red"><span class="LclaNmVal">[내수]</span> 마감임박</div>
+							    
+							    
+							    
+							
+							<div class="slide-title">[전남광주ㆍ제주] 2026년 10월 동행축제 우수 소상공인 제품 현장 라이브커머스 참가기업 모집 연장 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-09-14 ~ 2026-10-16</div>
+	                        	</div>
+	                       		<div class="dday">D-5</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127023'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="05"/>
+                    		<input type="hidden" value="1420000"/>
+                    		
+							    
+									<div class="cate red"><span class="LclaNmVal">[내수]</span> 마감임박</div>
+							    
+							    
+							    
+							
+							<div class="slide-title">[경기] 2026년 10월 동행축제 소상공인 라이브커머스 참가기업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-02 ~ 2026-10-16</div>
+	                        	</div>
+	                       		<div class="dday">D-5</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000126994'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="05"/>
+                    		<input type="hidden" value="1690000"/>
+                    		
+							    
+									<div class="cate red"><span class="LclaNmVal">[내수]</span> 마감임박</div>
+							    
+							    
+							    
+							
+							<div class="slide-title">2027년 1차 방산전시회 참가 지원사업 참여기업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-09-29 ~ 2026-10-13</div>
+	                        	</div>
+	                       		<div class="dday">D-2</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000126982'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="05"/>
+                    		<input type="hidden" value="1420000"/>
+                    		
+							    
+									<div class="cate red"><span class="LclaNmVal">[내수]</span> 마감임박</div>
+							    
+							    
+							    
+							
+							<div class="slide-title">2026년 5차 라이브커머스 제작ㆍ운영 사업 참여기업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-02 ~ 2026-10-16</div>
+	                        	</div>
+	                       		<div class="dday">D-5</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000126957'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="05"/>
+                    		<input type="hidden" value="1420000"/>
+                    		
+							    
+									<div class="cate red"><span class="LclaNmVal">[내수]</span> 마감임박</div>
+							    
+							    
+							    
+							
+							<div class="slide-title">[강원] 2026년 코리아그랜드페스티벌(동행축제) 우수 중소기업 제품 판매전(춘천온빛축제) 참여기업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-01 ~ 2026-10-16</div>
+	                        	</div>
+	                       		<div class="dday">D-5</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127053'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="06"/>
+                    		<input type="hidden" value="6310000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[창업]</span></div>
+							    
+							
+							<div class="slide-title">2026년 UNIST 벤처파운드리 정규 프로그램 연구자ㆍ예비창업자 팀빌딩 프로그램 참가자 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-09-21 ~ 2026-10-19</div>
+	                        	</div>
+	                       		<div class="dday">D-8</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127032'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="06"/>
+                    		<input type="hidden" value="6110000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[창업]</span></div>
+							    
+							
+							<div class="slide-title">[서울] 성북구 2026년 길음청년희망스토어 청년창업팀(12호점) 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-07 ~ 2026-10-21</div>
+	                        	</div>
+	                       		<div class="dday">D-10</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127027'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="06"/>
+                    		<input type="hidden" value="6470000"/>
+                    		
+							    
+									<div class="cate red"><span class="LclaNmVal">[창업]</span> 마감임박</div>
+							    
+							    
+							    
+							
+							<div class="slide-title">[경북] 2026년 경북청년 롯데 프리미엄 아울렛 동부산점 팝업스토어 참여기업 모집 공고(청년창업제품 판로개척 지원사업)</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-06 ~ 2026-10-16</div>
+	                        	</div>
+	                       		<div class="dday">D-5</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127021'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="06"/>
+                    		<input type="hidden" value="6470000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[창업]</span></div>
+							    
+							
+							<div class="slide-title">[경북] 정보보호 스타트업 육성사업 참여기업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-06 ~ 2026-10-20</div>
+	                        	</div>
+	                       		<div class="dday">D-9</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127016'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="06"/>
+                    		<input type="hidden" value="1613000"/>
+                    		
+							    
+							    
+									<div class="cate blue"><span class="LclaNmVal">[창업]</span> 인기공고</div>
+							    
+							    
+							
+							<div class="slide-title">2026년 한국도로공사 상생형 창업ㆍ벤처기업 지원사업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-06 ~ 2026-10-28</div>
+	                        	</div>
+	                       		<div class="dday">D-17</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127003'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="06"/>
+                    		<input type="hidden" value="6130000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[창업]</span></div>
+							    
+							
+							<div class="slide-title">2026년 전남광주 제3기 지역자원 연계 청년창업 지원사업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-09-30 ~ 2026-10-30</div>
+	                        	</div>
+	                       		<div class="dday">D-19</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000126988'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="06"/>
+                    		<input type="hidden" value="5690000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[창업]</span></div>
+							    
+							
+							<div class="slide-title">[세종] 2026년 하반기 세종창업키움센터 전문가컨설팅 프로그램 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-02 ~ 2026-10-30</div>
+	                        	</div>
+	                       		<div class="dday">D-19</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000126978'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="06"/>
+                    		<input type="hidden" value="6430000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[창업]</span></div>
+							    
+							
+							<div class="slide-title">[충북] 2026년 4분기 청년 소상공인 창업응원금 지원 참여자 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-01 ~ 2026-12-18</div>
+	                        	</div>
+	                       		<div class="dday">D-68</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000126969'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="06"/>
+                    		<input type="hidden" value="1710000"/>
+                    		
+							    
+							    
+									<div class="cate blue"><span class="LclaNmVal">[창업]</span> 인기공고</div>
+							    
+							    
+							
+							<div class="slide-title">2026년 청년기업인상 포상 신청 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-01 ~ 2026-10-26</div>
+	                        	</div>
+	                       		<div class="dday">D-15</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000126928'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="06"/>
+                    		<input type="hidden" value="1420000"/>
+                    		
+							    
+							    
+							    
+									<div class="cate default"><span class="LclaNmVal">[창업]</span></div>
+							    
+							
+							<div class="slide-title">2026년 2차 민관협력 오픈이노베이션 지원 상호 자율탐색형(바이오 분야) 참여기업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-01 ~ 2026-11-02</div>
+	                        	</div>
+	                       		<div class="dday">D-22</div>
+	                        </div>
+							</a>
+	                    </div>
+					
+		            	<div class="list swiper-slide">
+                    		<a href="#" onclick="fn_pblancView('PBLN_000000000127083'); return false;" class="support-link-container link-hover">
+                    		<input type="hidden" value="01"/>
+                    		<input type="hidden" value="07"/>
+                    		<input type="hidden" value="6430000"/>
+                    		
+							    
+									<div class="cate red"><span class="LclaNmVal">[경영]</span> 마감임박</div>
+							    
+							    
+							    
+							
+							<div class="slide-title">[충북] ESG경영 진단 및 컨설팅 지원사업 참여기업 모집 공고</div>
+							<div class="request-date">
+	                      		<div class="range">
+	                          		<div class="key">신청기간</div>
+	                          		<div class="value">2026-10-07 ~ 2026-10-14</div>
+	                        
