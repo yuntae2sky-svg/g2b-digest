@@ -8,6 +8,7 @@
 """
 import json
 import os
+import re
 import sys
 import urllib.parse
 import urllib.request
@@ -24,6 +25,12 @@ AWARD_BASE = "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidList
 SEEN_FILE = "seen.json"
 
 errors = []
+# 'RAS'는 ULTRASOUND 같은 영문 단어 속에도 부분일치하므로, 앞뒤에 영문자가 없는 독립 단어일 때만 인정
+RAS_WORD = re.compile(r"(?<![A-Za-z])RAS(?![A-Za-z])", re.IGNORECASE)
+
+
+def title_ok(kw, title):
+    return kw != "RAS" or bool(RAS_WORD.search(title or ""))
 
 
 def call(url, params):
@@ -82,14 +89,14 @@ def main():
                 "inqryDiv": 1, "bidNtceNm": kw,
                 "inqryBgnDt": fmt(now - timedelta(hours=BID_LOOKBACK_HOURS)), "inqryEndDt": fmt(now)}):
                 no = it.get("bidNtceNo")
-                if no and no not in seen:
+                if no and no not in seen and title_ok(kw, it.get("bidNtceNm")):
                     bids.setdefault(no, {**it, "_cat": cat, "_kw": set()})["_kw"].add(kw)
             # 낙찰: 참고문서 기준 inqryDiv 1=공고게시일시, 2=개찰일시 → 개찰일 기준 7일 누적
             for it in call(AWARD_BASE.format(c=code), {
                 "inqryDiv": 2, "bidNtceNm": kw,
                 "inqryBgnDt": fmt(now - timedelta(days=AWARD_LOOKBACK_DAYS)), "inqryEndDt": fmt(now)}):
                 no = it.get("bidNtceNo")
-                if no:
+                if no and title_ok(kw, it.get("bidNtceNm")):
                     awards.setdefault(no, {**it, "_cat": cat, "_kw": set()})["_kw"].add(kw)
 
     for no in bids:
