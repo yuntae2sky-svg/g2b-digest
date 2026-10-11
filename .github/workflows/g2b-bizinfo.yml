@@ -1,0 +1,26 @@
+name: g2b-bizinfo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 20 * * *"
+    - cron: "40 20 * * *"
+permissions:
+  contents: write
+jobs:
+  bizinfo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch bizinfo support programs
+        env:
+          BIZINFO_KEY: ${{ secrets.BIZINFO_KEY }}
+        run: python3 fetch_bizinfo.py
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "g2b-bot"
+          git config user.email "g2b-bot@users.noreply.github.com"
+          git add bizinfo.md bizinfo_state.json
+          git diff --staged --quiet || git commit -m "bizinfo digest"
+          git pull --rebase
+          git push
