@@ -15,8 +15,8 @@ from datetime import datetime, timedelta, timezone
 
 KST = timezone(timedelta(hours=9))
 KEY = urllib.parse.unquote(os.environ.get("G2B_KEY", ""))
-KEYWORDS = ["순환여과", "스마트양식", "RAS", "양식장", "수처리", "사육수조", "친환경양식"]
-BID_LOOKBACK_HOURS = 30   # 공고: 06:30 실행 기준 전일분 + 겹침 여유
+KEYWORDS = ["순환여과", "스마트양식", "RAS", "양식장", "사육수조", "친환경양식"]  # '수처리'는 하수처리 공사가 섞여 제외
+BID_LOOKBACK_HOURS = 168  # 공고: 7일 조회. 공고번호 기준 seen.json(14일)로 중복 제거되어 매일 신규분만 출력
 AWARD_LOOKBACK_DAYS = 7   # 낙찰: 최근 7일 누적
 CATEGORIES = {"물품": "Thng", "용역": "Servc", "공사": "Cnstwk"}
 BID_BASE = "https://apis.data.go.kr/1230000/ad/BidPublicInfoService/getBidPblancListInfo{c}PPSSrch"
@@ -108,7 +108,7 @@ def main():
     for no, it in sorted(awards.items(), key=lambda x: x[1].get("rlOpengDt") or "", reverse=True):
         out.append(f"- [{it['_cat']}] {it.get('bidNtceNm')} | 낙찰자 {it.get('bidwinnrNm')} | "
                    f"낙찰금액 {money(it.get('sucsfbidAmt'))} (낙찰률 {it.get('sucsfbidRate') or '-'}%) | "
-                   f"개찰 {it.get('rlOpengDt')} | 공고기관 {it.get('ntceInsttNm')}")
+                   f"개찰 {it.get('rlOpengDt')} | 수요기관 {it.get('dminsttNm') or '-'}")
     open("latest.md", "w", encoding="utf-8").write("\n".join(out) + "\n")
     print(f"공고 {len(bids)}건 / 낙찰 {len(awards)}건 / 오류 {len(errors)}건")
 
