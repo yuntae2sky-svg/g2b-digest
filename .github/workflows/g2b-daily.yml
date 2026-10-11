@@ -1,1 +1,24 @@
 
+name: g2b-daily
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 21 * * *"
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch G2B data
+        env:
+          G2B_KEY: ${{ secrets.G2B_KEY }}
+        run: python3 fetch_g2b.py
+      - name: Commit results
+        run: |
+          git config user.name "g2b-bot"
+          git config user.email "g2b-bot@users.noreply.github.com"
+          git add latest.md seen.json
+          git diff --staged --quiet || git commit -m "g2b digest"
+          git push
