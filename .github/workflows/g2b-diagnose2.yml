@@ -1,0 +1,38 @@
+name: g2b-diagnose2
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  diagnose2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe pages (read-only, 1 request per URL)
+        run: |
+          mkdir -p diag2
+          : > diag2/report.md
+          echo "# diagnose2 $(date -u +%FT%TZ) UTC" >> diag2/report.md
+          echo "" >> diag2/report.md
+          echo "| name | url | http | bytes | sec |" >> diag2/report.md
+          echo "|---|---|---|---|---|" >> diag2/report.md
+          probe() {
+            name="$1"; u="$2"
+            out="diag2/$name.html"
+            res=$(curl -sS -L --max-time 30 -A "g2b-digest-diagnose/1.0 (personal research)" \
+              -o "$out" -w "%{http_code}|%{size_download}|%{time_total}" "$u" 2>&1 || echo "ERR|0|0")
+            echo "| $name | $u | $(echo "$res" | cut -d'|' -f1) | $(echo "$res" | cut -d'|' -f2) | $(echo "$res" | cut -d'|' -f3) |" >> diag2/report.md
+            head -c 300000 "$out" > "$out.tmp" 2>/dev/null && mv "$out.tmp" "$out"
+            sleep 2
+          }
+          probe sealife_notice "https://www.sealife.go.kr/board/notice/list.do"
+          probe bizinfo_apilist "https://www.bizinfo.go.kr/apiList.do"
+          probe mof_index "https://www.mof.go.kr/index.do"
+      - name: Commit results
+        run: |
+          git config user.name "g2b-bot"
+          git config user.email "g2b-bot@users.noreply.github.com"
+          git add diag2
+          git diff --staged --quiet || git commit -m "diagnose2 report"
+          git pull --rebase
+          git push
