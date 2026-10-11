@@ -12,23 +12,24 @@ jobs:
         continue-on-error: true
         env:
           BIZINFO_KEY: ${{ secrets.BIZINFO_KEY }}
+          OUTDIR: diag5/run${{ github.run_id }}-${{ github.run_attempt }}
         run: |
-          mkdir -p diag5
-          echo "| target | try | curl_exit | http | bytes | sec |" > diag5/report.md
-          echo "|---|---|---|---|---|---|" >> diag5/report.md
+          mkdir -p "$OUTDIR"
+          echo "| target | try | curl_exit | http | bytes | sec |" > "$OUTDIR/report.md"
+          echo "|---|---|---|---|---|---|" >> "$OUTDIR/report.md"
           probe() {
-            name="$1"; url="$2"; out="diag5/$name.raw"
+            name="$1"; url="$2"; out="$OUTDIR/$name.raw"
             for t in 1 2 3; do
               set +e
               res=$(curl -sS -L --connect-timeout 20 --max-time 90 -A "g2b-digest-diagnose/1.0 (personal research)" \
                 -o "$out" -w "%{http_code}|%{size_download}|%{time_total}" "$url" 2>/dev/null)
               rc=$?
               set -e
-              echo "| $name | $t | $rc | $(echo "$res" | cut -d'|' -f1) | $(echo "$res" | cut -d'|' -f2) | $(echo "$res" | cut -d'|' -f3) |" >> diag5/report.md
+              echo "| $name | $t | $rc | $(echo "$res" | cut -d'|' -f1) | $(echo "$res" | cut -d'|' -f2) | $(echo "$res" | cut -d'|' -f3) |" >> "$OUTDIR/report.md"
               [ "$rc" = "0" ] && break
               sleep 10
             done
-            [ -f "$out" ] && head -c 60000 "$out" > "diag5/$name.txt" || true
+            [ -f "$out" ] && head -c 60000 "$out" > "$OUTDIR/$name.txt" || true
             rm -f "$out"
           }
           probe plain_page "https://www.bizinfo.go.kr/apiList.do"
