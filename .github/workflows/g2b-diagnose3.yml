@@ -1,0 +1,36 @@
+name: g2b-diagnose3
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  diagnose3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Retry probe bizinfo and mof (60s timeout, 3 tries each)
+        run: |
+          mkdir -p diag3
+          echo "| name | try | http | bytes | sec |" > diag3/report.md
+          echo "|---|---|---|---|---|" >> diag3/report.md
+          probe() {
+            name="$1"; u="$2"
+            for t in 1 2 3; do
+              res=$(curl -sS -L --max-time 60 -A "g2b-digest-diagnose/1.0 (personal research)" \
+                -o "diag3/$name.html" -w "%{http_code}|%{size_download}|%{time_total}" "$u" 2>&1 | tr '\n' ' ' || true)
+              echo "| $name | $t | $(echo "$res" | cut -d'|' -f1) | $(echo "$res" | cut -d'|' -f2) | $(echo "$res" | cut -d'|' -f3) |" >> diag3/report.md
+              case "$res" in 200*) break;; esac
+              sleep 10
+            done
+            head -c 300000 "diag3/$name.html" > "diag3/$name.tmp" 2>/dev/null && mv "diag3/$name.tmp" "diag3/$name.html"
+          }
+          probe bizinfo_apilist "https://www.bizinfo.go.kr/apiList.do"
+          probe mof_index "https://www.mof.go.kr/index.do"
+      - name: Commit results
+        run: |
+          git config user.name "g2b-bot"
+          git config user.email "g2b-bot@users.noreply.github.com"
+          git add diag3
+          git diff --staged --quiet || git commit -m "diagnose3 report"
+          git pull --rebase
+          git push
