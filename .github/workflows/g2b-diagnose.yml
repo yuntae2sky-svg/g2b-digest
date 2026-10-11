@@ -1,0 +1,45 @@
+name: g2b-diagnose
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe sites (read-only, 1 request per URL)
+        run: |
+          mkdir -p diag
+          : > diag/report.md
+          echo "# diagnose $(date -u +%FT%TZ) UTC" >> diag/report.md
+          echo "" >> diag/report.md
+          echo "| url | http | final_url | bytes | sec |" >> diag/report.md
+          echo "|---|---|---|---|---|" >> diag/report.md
+          i=0
+          for u in \
+            https://www.fipa.or.kr/robots.txt \
+            https://www.fipa.or.kr/ \
+            https://www.sealife.go.kr/robots.txt \
+            https://www.sealife.go.kr/ \
+            https://www.bizinfo.go.kr/robots.txt \
+            https://www.bizinfo.go.kr/ \
+            https://www.mof.go.kr/robots.txt \
+            https://www.mof.go.kr/ \
+            https://www.bizinfo.go.kr/sitemap.xml ; do
+            i=$((i+1))
+            out="diag/body_$i.html"
+            res=$(curl -sS -L --max-time 30 -A "g2b-digest-diagnose/1.0 (personal research)" \
+              -o "$out" -w "%{http_code}|%{url_effective}|%{size_download}|%{time_total}" "$u" 2>&1 || echo "ERR|$u|0|0")
+            echo "| $u | $(echo "$res" | cut -d'|' -f1) | $(echo "$res" | cut -d'|' -f2) | $(echo "$res" | cut -d'|' -f3) | $(echo "$res" | cut -d'|' -f4) |" >> diag/report.md
+            head -c 150000 "$out" > "$out.tmp" 2>/dev/null && mv "$out.tmp" "$out"
+            sleep 2
+          done
+      - name: Commit results
+        run: |
+          git config user.name "g2b-bot"
+          git config user.email "g2b-bot@users.noreply.github.com"
+          git add diag
+          git diff --staged --quiet || git commit -m "diagnose report"
+          git pull --rebase
+          git push
