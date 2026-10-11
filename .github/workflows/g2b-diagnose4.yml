@@ -1,0 +1,38 @@
+name: g2b-diagnose4
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  diagnose4:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe mof boards (60s timeout, 3 tries each)
+        run: |
+          mkdir -p diag4
+          echo "| name | try | http | bytes | sec |" > diag4/report.md
+          echo "|---|---|---|---|---|" >> diag4/report.md
+          probe() {
+            name="$1"; u="$2"
+            for t in 1 2 3; do
+              res=$(curl -sS -L --max-time 60 -A "g2b-digest-diagnose/1.0 (personal research)" \
+                -o "diag4/$name.html" -w "%{http_code}|%{size_download}|%{time_total}" "$u" 2>&1 | tr '\n' ' ' || true)
+              echo "| $name | $t | $(echo "$res" | cut -d'|' -f1) | $(echo "$res" | cut -d'|' -f2) | $(echo "$res" | cut -d'|' -f3) |" >> diag4/report.md
+              case "$res" in 200*) break;; esac
+              sleep 10
+            done
+            head -c 300000 "diag4/$name.html" > "diag4/$name.tmp" 2>/dev/null && mv "diag4/$name.tmp" "diag4/$name.html"
+            sleep 2
+          }
+          probe mof_notice "https://www.mof.go.kr/index.do?menuSeq=375"
+          probe mof_bid "https://www.mof.go.kr/index.do?menuSeq=379"
+          probe mof_gosi "https://www.mof.go.kr/index.do?menuSeq=877"
+      - name: Commit results
+        run: |
+          git config user.name "g2b-bot"
+          git config user.email "g2b-bot@users.noreply.github.com"
+          git add diag4
+          git diff --staged --quiet || git commit -m "diagnose4 report"
+          git pull --rebase
+          git push
