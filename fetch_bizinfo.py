@@ -10,8 +10,11 @@ from datetime import datetime, timedelta, timezone, date
 KST = timezone(timedelta(hours=9))
 KEY = os.environ.get("BIZINFO_KEY", "")
 API = "https://www.bizinfo.go.kr/uss/rss/bizinfoApi.do"
-KEYWORDS = ["양식", "순환여과", "스마트양식", "RAS", "사육수조", "친환경", "수산", "어촌", "귀어", "어업", "수협"]
-INST_WORDS = ["해양수산", "수협", "어촌어항", "수산과학", "수산자원", "수산업"]
+KEYWORDS = ["양식", "순환여과", "스마트양식", "RAS", "사육수조", "친환경양식", "수산", "SEAFOOD", "어촌", "귀어", "어업", "수협"]
+# 농림 분야 용어가 '수산/어촌/어업'에 걸리는 오탐을 막기 위해 매칭 전 제거
+STRIP = ["해양수산부", "농수산", "농어촌", "농어업", "수산부산물"]
+INST_WORDS = ["수협", "어촌어항", "수산과학", "수산자원", "수산업"]  # 해양수산부 소관 전체는 조선/극지 등 비관련 건이 많아 제외
+RULES_VERSION = 2  # 매칭 규칙을 바꾸면 올려서 상태를 초기화(기준선 재등록)
 STATE, OUT = "bizinfo_state.json", "bizinfo.md"
 KEEP_DAYS = 30
 RAS_WORD = re.compile(r"(?<![A-Za-z])RAS(?![A-Za-z])")
@@ -36,7 +39,9 @@ def fetch():
 
 
 def match(it):
-    text = (it.get("pblancNm") or "").replace("해양수산부", "") + " " + (it.get("hashtags") or "")
+    text = (it.get("pblancNm") or "") + " " + (it.get("hashtags") or "")
+    for w in STRIP:
+        text = text.replace(w, "")
     if any((RAS_WORD.search(text) if k == "RAS" else k in text) for k in KEYWORDS):
         return True
     inst = (it.get("jrsdInsttNm") or "") + " " + (it.get("excInsttNm") or "")
@@ -54,8 +59,9 @@ def main(items=None, today=None):
     # 오늘 이미 성공적으로 생성했으면 2차 실행은 건너뜀 (FORCE=1이면 무시)
     if items is None and not os.environ.get("FORCE"):
         try:
-            head = open(OUT, encoding="utf-8").read(400)
-            if f"{today:%Y-%m-%d}" in head.split("\n")[0] and "⚠" not in open(OUT, encoding="utf-8").read():
+            body = open(OUT, encoding="utf-8").read()
+            ver_ok = json.load(open(STATE, encoding="utf-8")).get("_v") == RULES_VERSION
+            if ver_ok and f"{today:%Y-%m-%d}" in body.split("\n")[0] and "⚠" not in body:
                 print("오늘자 결과가 이미 있어 건너뜀")
                 return
         except Exception:
@@ -64,6 +70,8 @@ def main(items=None, today=None):
         sys.exit("BIZINFO_KEY 환경변수가 없습니다.")
     try:
         state, first_run = json.load(open(STATE, encoding="utf-8")), False
+        if state.get("_v") != RULES_VERSION:
+            state, first_run = {}, True
     except Exception:
         state, first_run = {}, True
     err = None
@@ -86,8 +94,11 @@ def main(items=None, today=None):
                     new.append(pid)
             state[pid].update({"title": it.get("pblancNm"), "url": it.get("pblancUrl"), "inst": it.get("jrsdInsttNm"),
                                "exec": it.get("excInsttNm"), "begin": b, "end": e, "period": it.get("reqstBeginEndDe")})
+        state["_v"] = RULES_VERSION
         json.dump(state, open(STATE, "w", encoding="utf-8"), ensure_ascii=False)
     for pid, st in state.items():
+        if pid == "_v":
+            continue
         if st.get("end"):
             days = (date.fromisoformat(st["end"]) - today).days
             if days < 0:
