@@ -1,9 +1,8 @@
-
 name: g2b-daily
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "30 21 * * *"
+    - cron: "30 20 * * *"
+  workflow_dispatch: {}
 permissions:
   contents: write
 jobs:
@@ -16,9 +15,11 @@ jobs:
           G2B_KEY: ${{ secrets.G2B_KEY }}
         run: python3 fetch_g2b.py
       - name: Commit results
+        if: always()
         run: |
           git config user.name "g2b-bot"
           git config user.email "g2b-bot@users.noreply.github.com"
-          git add latest.md seen.json
-          git diff --staged --quiet || git commit -m "g2b digest"
+          git add latest.md g2b_state.json
+          git diff --staged --quiet || git commit -m "g2b digest $(date -u +%F)"
+          git pull --rebase
           git push
