@@ -17,12 +17,14 @@ from datetime import datetime, timedelta, timezone
 KST = timezone(timedelta(hours=9))
 KEY = urllib.parse.unquote(os.environ.get("G2B_KEY", ""))
 KEYWORDS = ["순환여과", "스마트양식", "RAS", "양식장", "사육수조", "친환경양식"]  # '수처리'는 하수처리 공사가 섞여 제외
-BID_LOOKBACK_HOURS = 168  # 공고: 7일 조회. 공고번호 기준 seen.json(14일)로 중복 제거되어 매일 신규분만 출력
+BID_LOOKBACK_HOURS = 720  # 공고: 30일 조회(아직 접수중인 공고를 놓치지 않기 위함). 접수중 목록은 STATE_FILE에 유지
+SOON_DAYS = 3             # 마감 D-3 이내 = 마감임박
+KEEP_UNKNOWN_DAYS = 14    # 마감일 미상 공고는 최초 발견 후 14일간 표시
 AWARD_LOOKBACK_DAYS = 7   # 낙찰: 최근 7일 누적
 CATEGORIES = {"물품": "Thng", "용역": "Servc", "공사": "Cnstwk"}
 BID_BASE = "https://apis.data.go.kr/1230000/ad/BidPublicInfoService/getBidPblancListInfo{c}PPSSrch"
 AWARD_BASE = "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttus{c}PPSSrch"
-SEEN_FILE = "seen.json"
+STATE_FILE = "g2b_state.json"
 
 errors = []
 # 'RAS'는 ULTRASOUND 같은 영문 단어 속에도 부분일치하므로, 앞뒤에 영문자가 없는 독립 단어일 때만 인정
@@ -76,11 +78,10 @@ def main():
         sys.exit("G2B_KEY 환경변수가 없습니다.")
     now = datetime.now(KST)
     try:
-        seen = json.load(open(SEEN_FILE, encoding="utf-8"))
+        state = json.load(open(STATE_FILE, encoding="utf-8"))
     except Exception:
-        seen = {}
-    cutoff = (now - timedelta(days=14)).strftime("%Y%m%d")
-    seen = {k: v for k, v in seen.items() if v >= cutoff}
+        state = {}
+    today = now.strftime("%Y-%m-%d")
 
     bids, awards = {}, {}
     for cat, code in CATEGORIES.items():
@@ -89,7 +90,7 @@ def main():
                 "inqryDiv": 1, "bidNtceNm": kw,
                 "inqryBgnDt": fmt(now - timedelta(hours=BID_LOOKBACK_HOURS)), "inqryEndDt": fmt(now)}):
                 no = it.get("bidNtceNo")
-                if no and no not in seen and title_ok(kw, it.get("bidNtceNm")):
+                if no and title_ok(kw, it.get("bidNtceNm")):
                     bids.setdefault(no, {**it, "_cat": cat, "_kw": set()})["_kw"].add(kw)
             # 낙찰: 참고문서 기준 inqryDiv 1=공고게시일시, 2=개찰일시 → 개찰일 기준 7일 누적
             for it in call(AWARD_BASE.format(c=code), {
@@ -99,25 +100,43 @@ def main():
                 if no and title_ok(kw, it.get("bidNtceNm")):
                     awards.setdefault(no, {**it, "_cat": cat, "_kw": set()})["_kw"].add(kw)
 
-    for no in bids:
-        seen[no] = now.strftime("%Y%m%d")
-    json.dump(seen, open(SEEN_FILE, "w", encoding="utf-8"), ensure_ascii=False)
+    # 상태 갱신: 조회에 성공한 공고만 반영. 전체 실패(오류 있고 결과 0)면 기존 상태를 건드리지 않음.
+    if bids or not errors:
+        for no, it in bids.items():
+            old = state.get(no, {})
+            state[no] = {
+                "first_seen": old.get("first_seen", today),
+                "deadline": (it.get("bidClseDt") or "")[:16],
+                "line": (f"[{it['_cat']}] {it.get('bidNtceNm')} | 공고기관 {it.get('ntceInsttNm')} | "
+                         f"추정가격 {money(it.get('presmptPrce') or it.get('asignBdgtAmt'))} | 마감 {it.get('bidClseDt')} | "
+                         f"{it.get('bidNtceDtlUrl') or it.get('bidNtceUrl') or '-'} (키워드: {', '.join(sorted(it['_kw']))})"),
+            }
+    now_s = now.strftime("%Y-%m-%d %H:%M")
+    keep_cut = (now - timedelta(days=KEEP_UNKNOWN_DAYS)).strftime("%Y-%m-%d")
+    state = {k: v for k, v in state.items()
+             if (v["deadline"] and v["deadline"] >= now_s) or (not v["deadline"] and v["first_seen"] >= keep_cut)}
+    json.dump(state, open(STATE_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    soon_s = (now + timedelta(days=SOON_DAYS)).strftime("%Y-%m-%d %H:%M")
+    new_l = sorted((v for v in state.values() if v["first_seen"] == today), key=lambda v: v["deadline"])
+    soon_l = sorted((v for v in state.values() if v["first_seen"] != today and v["deadline"] and v["deadline"] <= soon_s),
+                    key=lambda v: v["deadline"])
+    open_l = sorted((v for v in state.values() if v["first_seen"] != today and v not in soon_l),
+                    key=lambda v: v["deadline"] or "9")
 
     out = [f"# 나라장터 입찰·낙찰 요약 ({now:%Y-%m-%d %H:%M} KST 생성)", ""]
     if errors:
         out += ["## ⚠ 수집 오류 (결과가 불완전할 수 있음)"] + [f"- {e}" for e in sorted(set(errors))] + [""]
-    out += [f"## 신규 입찰공고 ({len(bids)}건)"]
-    for no, it in sorted(bids.items(), key=lambda x: x[1].get("bidClseDt") or ""):
-        out.append(f"- [{it['_cat']}] {it.get('bidNtceNm')} | 공고기관 {it.get('ntceInsttNm')} | "
-                   f"추정가격 {money(it.get('presmptPrce') or it.get('asignBdgtAmt'))} | 마감 {it.get('bidClseDt')} | "
-                   f"{it.get('bidNtceDtlUrl') or it.get('bidNtceUrl') or '-'} (키워드: {', '.join(sorted(it['_kw']))})")
+    for title, lst in ((f"🆕 신규 입찰공고 ({len(new_l)}건)", new_l),
+                       (f"⚠️ 마감임박 D-{SOON_DAYS} ({len(soon_l)}건)", soon_l),
+                       (f"접수중 ({len(open_l)}건)", open_l)):
+        out += [f"## {title}"] + [f"- {v['line']}" for v in lst] + [""]
     out += ["", f"## 최근 {AWARD_LOOKBACK_DAYS}일 낙찰 ({len(awards)}건)"]
     for no, it in sorted(awards.items(), key=lambda x: x[1].get("rlOpengDt") or "", reverse=True):
         out.append(f"- [{it['_cat']}] {it.get('bidNtceNm')} | 낙찰자 {it.get('bidwinnrNm')} | "
                    f"낙찰금액 {money(it.get('sucsfbidAmt'))} (낙찰률 {it.get('sucsfbidRate') or '-'}%) | "
                    f"개찰 {it.get('rlOpengDt')} | 수요기관 {it.get('dminsttNm') or '-'}")
     open("latest.md", "w", encoding="utf-8").write("\n".join(out) + "\n")
-    print(f"공고 {len(bids)}건 / 낙찰 {len(awards)}건 / 오류 {len(errors)}건")
+    print(f"신규 {len(new_l)} 임박 {len(soon_l)} 접수중 {len(open_l)}건 / 낙찰 {len(awards)}건 / 공고 {len(bids)}건 / 낙찰 {len(awards)}건 / 오류 {len(errors)}건")
 
 
 if __name__ == "__main__":
