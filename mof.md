@@ -1,9 +1,4 @@
-# 해양수산부 게시판 (2026-10-16 06:39 KST 생성)
-
-## ⚠ 수집 오류 (결과가 불완전할 수 있음)
-- 공지사항: 접속 실패 URLError <urlopen error timed out>
-- 입찰: 접속 실패 URLError <urlopen error timed out>
-- 고시/공고: 접속 실패 URLError <urlopen error timed out>
+# 해양수산부 게시판 (2026-10-17 08:33 KST 생성)
 
 ## 신규 (0건)
 
