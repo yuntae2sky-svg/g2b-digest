@@ -1,11 +1,10 @@
-# 나라장터 입찰·낙찰 요약 (2026-10-20 08:49 KST 생성)
+# 나라장터 입찰·낙찰 요약 (2026-10-21 08:15 KST 생성)
 
 ## ⚠ 수집 오류 (결과가 불완전할 수 있음)
-- getBidPblancListInfoServcPPSSrch 양식장: URLError <urlopen error _ssl.c:983: The handshake operation timed out>
+- getBidPblancListInfoServcPPSSrch 사육수조: URLError <urlopen error _ssl.c:983: The handshake operation timed out>
 
-## 🆕 신규 입찰공고 (2건)
-- [용역] 제주형 스마트양식 클러스터 조성사업 배후부지 리모델링 건설폐기물 처리용역 발주 | 공고기관 한국농어촌공사 제주지역본부 | 추정가격 73,479,090원 | 마감 2026-10-26 15:00:00 | https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01778068&bidPbancOrd=000 (키워드: 스마트양식)
-- [물품] 강원 내수면 연어산업화 연구동 건립사업 RAS(순환여과양식시스템) 기자재 제작·구매 및 설치 | 공고기관 한국어촌어항공단 | 추정가격 88,330,000원 | 마감 2026-10-30 10:00:00 | https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01779046&bidPbancOrd=000 (키워드: RAS, 순환여과)
+## 🆕 신규 입찰공고 (1건)
+- [용역] 제주형 스마트양식 클러스터 조성사업 소방감리 용역 | 공고기관 한국농어촌공사 제주지역본부 | 추정가격 9,918,182원 | 마감 2026-10-21 14:00:00 | https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01782101&bidPbancOrd=000 (키워드: 스마트양식)
 
 ## ⚠️ 마감임박 D-3 (4건)
 - [물품] 2024년 친환경양식어업육성사업-해상가두리스마트 양식시설 조성 | 공고기관 경상남도 거제시 | 추정가격 191,205,455원 | 마감 2026-10-21 10:00:00 | https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01770214&bidPbancOrd=000 (키워드: 스마트양식, 친환경양식)
@@ -13,7 +12,9 @@
 - [공사] 2026년 친환경양식육성(육상 스마트양식시설 조성)사업(민간입찰대행) | 공고기관 경상남도 남해군 | 추정가격 1,810,989,091원 | 마감 2026-10-22 10:00:00 | https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01776377&bidPbancOrd=000 (키워드: 스마트양식, 친환경양식)
 - [물품] 2026년 내수면 양식장 현대화 사업 양어용수조 구입(민간입찰대행) | 공고기관 충청남도 금산군 | 추정가격 99,882,727원 | 마감 2026-10-22 12:00:00 | https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01776698&bidPbancOrd=000 (키워드: 양식장)
 
-## 접수중 (0건)
+## 접수중 (2건)
+- [용역] 제주형 스마트양식 클러스터 조성사업 배후부지 리모델링 건설폐기물 처리용역 발주 | 공고기관 한국농어촌공사 제주지역본부 | 추정가격 73,479,090원 | 마감 2026-10-26 15:00:00 | https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01778068&bidPbancOrd=000 (키워드: 스마트양식)
+- [물품] 강원 내수면 연어산업화 연구동 건립사업 RAS(순환여과양식시스템) 기자재 제작·구매 및 설치 | 공고기관 한국어촌어항공단 | 추정가격 88,330,000원 | 마감 2026-10-30 10:00:00 | https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01779046&bidPbancOrd=000 (키워드: RAS, 순환여과)
 
 
 ## 최근 7일 낙찰 (2건)
