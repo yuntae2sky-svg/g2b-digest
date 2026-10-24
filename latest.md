@@ -1,7 +1,4 @@
-# 나라장터 입찰·낙찰 요약 (2026-10-24 08:15 KST 생성)
-
-## ⚠ 수집 오류 (결과가 불완전할 수 있음)
-- getBidPblancListInfoCnstwkPPSSrch 스마트양식: URLError <urlopen error _ssl.c:983: The handshake operation timed out>
+# 나라장터 입찰·낙찰 요약 (2026-10-25 07:35 KST 생성)
 
 ## 🆕 신규 입찰공고 (0건)
 
