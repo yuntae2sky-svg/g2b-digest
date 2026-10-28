@@ -1,26 +1,33 @@
-# 기업마당 지원사업 (2026-10-28 08:21 KST 생성)
+# 기업마당 지원사업 (2026-10-29 08:44 KST 생성)
 
-## 신규 (1건)
-- [강원] 춘천시 2026년 여성어업인 특화건강검진 사업 모집 공고 | 소관 강원특별자치도 / 수행 기초자치단체 | 접수 2026-10-21 ~ 2026-10-30 (D-None) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127479
+## 신규 (4건)
+- [제주] 2026년 4차 양식장 친환경에너지보급사업(인버터) 대상자 모집 공고 | 소관 제주특별자치도 / 수행 직접수행 | 접수 2026-10-27 ~ 2026-11-10 (D-None) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127527
+- [부산] 기장군 2026년 3차 어선어업자 어구 지원사업 신청 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-10-27 ~ 2026-11-13 (D-None) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127525
+- [부산] 서구 한시적 수출 수산식품 포장재 지원사업 3차 신청 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-10-26 ~ 2026-11-16 (D-None) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127521
+- [제주] 2026년 4극3특 제주특별자치도 과학기술혁신지원사업 연구단 모집 연장 공고 | 소관 과학기술정보통신부 / 수행 한국생산기술연구원 | 접수 2026-09-11 ~ 2026-11-02 (D-None) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127518
 
 ## 마감임박 D-3 이내 (7건)
-- [전남광주] 2026년 전남창조경제혁신센터 국내판로 오픈이노베이션 밋업데이(GS THE FRESH) 참가기업 모집 공고 | 소관 전남광주통합특별시 / 수행 전남창조경제혁신센터 | 접수 2026-10-20 ~ 2026-10-29 (D-1) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127367
-- [전남광주] 화순군 2026년 농수산물 수출경쟁력 강화 지원사업 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-10-01 ~ 2026-10-30 (D-2) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127046
-- 2026년 하반기 온라인 K-SEAFOOD 판매 전용관 운영 사업 입점 제품 모집 공고 | 소관 해양수산부 / 수행 한국수산회 | 접수 2026-07-13 ~ 2026-10-30 (D-2) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125365
-- 2026년 2차 친환경인증선박 보급지원사업 공고 | 소관 해양수산부 / 수행 한국해양교통안전공단 | 접수 2026-07-27 ~ 2026-10-30 (D-2) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124783
-- 2026년 하반기 온라인 K-SEAFOOD 판매 전용관 운영 사업 입점 제품 모집 공고 | 소관 해양수산부 / 수행 한국수산회 | 접수 2026-07-13 ~ 2026-10-30 (D-2) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124341
-- [전북] 고창군 2026년 4차 수산식품 가공설비 지원사업 모집 공고 | 소관 전북특별자치도 / 수행 기초자치단체 | 접수 2026-10-23 ~ 2026-10-30 (D-2) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127461
-- [강원] 춘천시 2026년 여성어업인 특화건강검진 사업 모집 공고 | 소관 강원특별자치도 / 수행 기초자치단체 | 접수 2026-10-21 ~ 2026-10-30 (D-2) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127479
+- [전남광주] 2026년 전남창조경제혁신센터 국내판로 오픈이노베이션 밋업데이(GS THE FRESH) 참가기업 모집 공고 | 소관 전남광주통합특별시 / 수행 전남창조경제혁신센터 | 접수 2026-10-20 ~ 2026-10-29 (D-0) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127367
+- [전남광주] 화순군 2026년 농수산물 수출경쟁력 강화 지원사업 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-10-01 ~ 2026-10-30 (D-1) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127046
+- 2026년 하반기 온라인 K-SEAFOOD 판매 전용관 운영 사업 입점 제품 모집 공고 | 소관 해양수산부 / 수행 한국수산회 | 접수 2026-07-13 ~ 2026-10-30 (D-1) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125365
+- 2026년 2차 친환경인증선박 보급지원사업 공고 | 소관 해양수산부 / 수행 한국해양교통안전공단 | 접수 2026-07-27 ~ 2026-10-30 (D-1) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124783
+- 2026년 하반기 온라인 K-SEAFOOD 판매 전용관 운영 사업 입점 제품 모집 공고 | 소관 해양수산부 / 수행 한국수산회 | 접수 2026-07-13 ~ 2026-10-30 (D-1) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000124341
+- [전북] 고창군 2026년 4차 수산식품 가공설비 지원사업 모집 공고 | 소관 전북특별자치도 / 수행 기초자치단체 | 접수 2026-10-23 ~ 2026-10-30 (D-1) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127461
+- [강원] 춘천시 2026년 여성어업인 특화건강검진 사업 모집 공고 | 소관 강원특별자치도 / 수행 기초자치단체 | 접수 2026-10-21 ~ 2026-10-30 (D-1) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127479
 
-## 접수중 (20건)
-- 2026년 4분기 국내 활ㆍ신선 수조 보관 지원업체 모집 공고 | 소관 해양수산부 / 수행 한국수산무역협회 | 접수 2026-10-16 ~ 2026-11-02 (D-5) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127297
-- 2026년 4분기 국내 저온 저장시설 보관 지원업체 모집 공고 | 소관 해양수산부 / 수행 한국수산무역협회 | 접수 2026-10-16 ~ 2026-11-02 (D-5) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127296
-- [전남광주] 2026년 농림축수산식품 수출탑 대상기업 모집 공고 | 소관 전남광주통합특별시 / 수행 직접수행 | 접수 2026-10-22 ~ 2026-11-05 (D-8) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127404
-- 2027년 수산업ㆍ어촌발전 유공 포상 추천대상자 모집 공고 | 소관 해양수산부 / 수행 직접수행 | 접수 2026-09-28 ~ 2026-11-06 (D-9) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126829
-- [부산] 서구 2026년 수산식품 가공설비 지원사업 추가 사업자 모집 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-10-19 ~ 2026-11-06 (D-9) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127375
-- [전북] 고창군 2026년 수산물 물류환경 개선사업 모집 공고 | 소관 전북특별자치도 / 수행 기초자치단체 | 접수 2026-10-23 ~ 2026-11-06 (D-9) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127463
-- 제6차 해양수산 투자기관 협의회(정기IR) 참여기업 모집 공고 | 소관 해양수산부 / 수행 해양수산과학기술진흥원 | 접수 2026-10-26 ~ 2026-11-13 (D-16) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127462
-- 2026년 3차 인천국제공항 면세점 연계 수산식품 판매홍보관 입점업체 모집 공고 | 소관 농림축산식품부 / 수행 한국농수산식품유통공사 | 접수 2026-10-22 ~ 2026-11-20 (D-23) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127428
+## 접수중 (24건)
+- 2026년 4분기 국내 활ㆍ신선 수조 보관 지원업체 모집 공고 | 소관 해양수산부 / 수행 한국수산무역협회 | 접수 2026-10-16 ~ 2026-11-02 (D-4) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127297
+- 2026년 4분기 국내 저온 저장시설 보관 지원업체 모집 공고 | 소관 해양수산부 / 수행 한국수산무역협회 | 접수 2026-10-16 ~ 2026-11-02 (D-4) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127296
+- [제주] 2026년 4극3특 제주특별자치도 과학기술혁신지원사업 연구단 모집 연장 공고 | 소관 과학기술정보통신부 / 수행 한국생산기술연구원 | 접수 2026-09-11 ~ 2026-11-02 (D-4) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127518
+- [전남광주] 2026년 농림축수산식품 수출탑 대상기업 모집 공고 | 소관 전남광주통합특별시 / 수행 직접수행 | 접수 2026-10-22 ~ 2026-11-05 (D-7) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127404
+- 2027년 수산업ㆍ어촌발전 유공 포상 추천대상자 모집 공고 | 소관 해양수산부 / 수행 직접수행 | 접수 2026-09-28 ~ 2026-11-06 (D-8) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126829
+- [부산] 서구 2026년 수산식품 가공설비 지원사업 추가 사업자 모집 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-10-19 ~ 2026-11-06 (D-8) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127375
+- [전북] 고창군 2026년 수산물 물류환경 개선사업 모집 공고 | 소관 전북특별자치도 / 수행 기초자치단체 | 접수 2026-10-23 ~ 2026-11-06 (D-8) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127463
+- [제주] 2026년 4차 양식장 친환경에너지보급사업(인버터) 대상자 모집 공고 | 소관 제주특별자치도 / 수행 직접수행 | 접수 2026-10-27 ~ 2026-11-10 (D-12) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127527
+- 제6차 해양수산 투자기관 협의회(정기IR) 참여기업 모집 공고 | 소관 해양수산부 / 수행 해양수산과학기술진흥원 | 접수 2026-10-26 ~ 2026-11-13 (D-15) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127462
+- [부산] 기장군 2026년 3차 어선어업자 어구 지원사업 신청 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-10-27 ~ 2026-11-13 (D-15) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127525
+- [부산] 서구 한시적 수출 수산식품 포장재 지원사업 3차 신청 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-10-26 ~ 2026-11-16 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127521
+- 2026년 3차 인천국제공항 면세점 연계 수산식품 판매홍보관 입점업체 모집 공고 | 소관 농림축산식품부 / 수행 한국농수산식품유통공사 | 접수 2026-10-22 ~ 2026-11-20 (D-22) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127428
 - [제주] 2026년 해양수산 국내전시회(2026 부산 국제수산 EXPO) 참가 및 바이어 초청 통합지원 참가기업 모집 재공고 | 소관 해양수산부 / 수행 제주테크노파크 | 접수기간 수시 모집 | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123140
 - [제주] 2026년 해양수산 창업투자 지원센터사업 수혜기업 모집 재공고 | 소관 제주특별자치도 / 수행 제주테크노파크 | 접수기간 상시 접수 | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123091
 - [인천] 2026년 수산물 전시회 및 박람회 참가지원 사업 공고 | 소관 인천광역시 / 수행 직접수행 | 접수기간 상시 접수 | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123003
