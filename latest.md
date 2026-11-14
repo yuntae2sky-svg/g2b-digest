@@ -1,7 +1,6 @@
-# 나라장터 입찰·낙찰 요약 (2026-11-13 10:15 KST 생성)
+# 나라장터 입찰·낙찰 요약 (2026-11-14 09:55 KST 생성)
 
 ## ⚠ 수집 오류 (결과가 불완전할 수 있음)
-- getBidPblancListInfoCnstwkPPSSrch 스마트양식: URLError <urlopen error _ssl.c:1063: The handshake operation timed out>
 - getScsbidListSttusServcPPSSrch 스마트양식: URLError <urlopen error _ssl.c:1063: The handshake operation timed out>
 
 ## 🆕 신규 입찰공고 (0건)
