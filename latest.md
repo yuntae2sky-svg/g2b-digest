@@ -1,7 +1,13 @@
-# 나라장터 입찰·낙찰 요약 (2026-11-19 10:55 KST 생성)
+# 나라장터 입찰·낙찰 요약 (2026-11-20 10:48 KST 생성)
 
 ## ⚠ 수집 오류 (결과가 불완전할 수 있음)
-- getScsbidListSttusCnstwkPPSSrch 스마트양식: URLError <urlopen error _ssl.c:1063: The handshake operation timed out>
+- getBidPblancListInfoCnstwkPPSSrch 순환여과: HTTPError HTTP Error 500: Internal Server Error
+- getBidPblancListInfoServcPPSSrch RAS: HTTPError HTTP Error 500: Internal Server Error
+- getBidPblancListInfoThngPPSSrch 친환경양식: HTTPError HTTP Error 500: Internal Server Error
+- getScsbidListSttusCnstwkPPSSrch 순환여과: HTTPError HTTP Error 500: Internal Server Error
+- getScsbidListSttusServcPPSSrch RAS: HTTPError HTTP Error 500: Internal Server Error
+- getScsbidListSttusThngPPSSrch 양식장: HTTPError HTTP Error 500: Internal Server Error
+- getScsbidListSttusThngPPSSrch 친환경양식: HTTPError HTTP Error 500: Internal Server Error
 
 ## 🆕 신규 입찰공고 (0건)
 
