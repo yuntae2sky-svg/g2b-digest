@@ -1,64 +1,65 @@
-# 기업마당 지원사업 (2026-11-23 09:32 KST 생성)
+# 기업마당 지원사업 (2026-11-24 13:30 KST 생성)
 
-## 신규 (0건)
+## 신규 (1건)
+- [전북] 2027년 안전한 양식장 인증 참여어가 모집 공고 | 소관 전북특별자치도 / 수행 전북특별자치도수산기술연구소 | 접수 2026-11-20 ~ 2026-12-18 (D-None) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128073
 
-## 마감임박 D-3 이내 (4건)
-- [강원] 홍천군 2026년 내수면 어로어업경영 개선 장비 지원사업 사업자 모집 재공고 | 소관 강원특별자치도 / 수행 기초자치단체 | 접수 2026-11-17 ~ 2026-11-23 (D-0) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128007
-- [부산] 사하구 한시적 수출 수산식품 포장재 지원사업 추가 신청 안내 공고(3차) | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-11-25 (D-2) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127961
-- [충남] 태안군 2027년 청년어촌정착 지원사업 모집 공고 | 소관 충청남도 / 수행 기초자치단체 | 접수 2026-11-11 ~ 2026-11-25 (D-2) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128001
-- [전북] 부안군 2027년 청년어촌정착지원 사업 희망자 모집 공고 | 소관 전북특별자치도 / 수행 기초자치단체 | 접수 2026-11-18 ~ 2026-11-25 (D-2) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127987
+## 마감임박 D-3 이내 (9건)
+- [부산] 사하구 한시적 수출 수산식품 포장재 지원사업 추가 신청 안내 공고(3차) | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-11-25 (D-1) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127961
+- [충남] 태안군 2027년 청년어촌정착 지원사업 모집 공고 | 소관 충청남도 / 수행 기초자치단체 | 접수 2026-11-11 ~ 2026-11-25 (D-1) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128001
+- [전북] 부안군 2027년 청년어촌정착지원 사업 희망자 모집 공고 | 소관 전북특별자치도 / 수행 기초자치단체 | 접수 2026-11-18 ~ 2026-11-25 (D-1) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127987
+- [전남광주] 여수시 2027년 친환경 에너지절감장비 보급사업 신청자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-09 ~ 2026-11-27 (D-3) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127710
+- [전남광주] 여수시 2027년 어선어업 노동력 절감장비 지원사업 신청자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-09 ~ 2026-11-27 (D-3) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127708
+- [전남광주] 여수시 2027년 어선사고 예방시스템 구축사업 대상자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-09 ~ 2026-11-27 (D-3) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127705
+- [전남광주] 해남군 2027년 청년어촌정착 지원사업 신청 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-04 ~ 2026-11-27 (D-3) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127747
+- [전남광주] 목포시 2027년 청년어촌정착지원사업 사업대상자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-09 ~ 2026-11-27 (D-3) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127815
+- [부산] 서구 2026년 수산식품 가공설비 지원사업 추가 사업자 모집 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-11-18 ~ 2026-11-27 (D-3) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128030
 
-## 접수중 (53건)
-- [전남광주] 여수시 2027년 친환경 에너지절감장비 보급사업 신청자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-09 ~ 2026-11-27 (D-4) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127710
-- [전남광주] 여수시 2027년 어선어업 노동력 절감장비 지원사업 신청자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-09 ~ 2026-11-27 (D-4) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127708
-- [전남광주] 여수시 2027년 어선사고 예방시스템 구축사업 대상자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-09 ~ 2026-11-27 (D-4) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127705
-- [전남광주] 해남군 2027년 청년어촌정착 지원사업 신청 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-04 ~ 2026-11-27 (D-4) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127747
-- [전남광주] 목포시 2027년 청년어촌정착지원사업 사업대상자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-09 ~ 2026-11-27 (D-4) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127815
-- [부산] 서구 2026년 수산식품 가공설비 지원사업 추가 사업자 모집 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-11-18 ~ 2026-11-27 (D-4) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128030
-- [전남광주] 진도군 2027년 청년어촌정착 지원사업 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-05 ~ 2026-11-30 (D-7) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127732
-- [충남] 서천군 2027년 청년어촌정착지원 사업대상자 모집 공고 | 소관 충청남도 / 수행 기초자치단체 | 접수 2026-11-13 ~ 2026-11-30 (D-7) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127824
-- [전북] 고창군 2027년 청년어촌정착 지원사업 모집 공고 | 소관 전북특별자치도 / 수행 기초자치단체 | 접수 2026-11-09 ~ 2026-11-30 (D-7) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127819
-- [전북] 군산시 2026년 7차 수산물 유통시설 장비(저온저장고) 지원사업 모집 공고 | 소관 전북특별자치도 / 수행 기초자치단체 | 접수 2026-11-09 ~ 2026-11-30 (D-7) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127816
-- 2026년 3차 친환경인증선박 보급지원사업 공고 | 소관 해양수산부 / 수행 한국해양교통안전공단 | 접수 2026-11-09 ~ 2026-11-30 (D-7) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127804
-- [강원] 양양군 2027년 청년어촌정착지원 사업자 모집 공고 | 소관 강원특별자치도 / 수행 기초자치단체 | 접수 2026-11-09 ~ 2026-11-30 (D-7) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127895
-- [전남광주] 여수시 2026년 청정어장 굴 전략품목 육성 지원사업 대상자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-11 ~ 2026-11-30 (D-7) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127887
-- [전남광주] 완도군 2027년 청년어촌정착지원 사업자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-09 ~ 2026-12-02 (D-9) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127729
-- [전남광주] 영광군 2027년 청년 어촌정착 지원사업 신청자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-13 ~ 2026-12-02 (D-9) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127935
-- [전남광주] 함평군 2027년 청년 어촌정착 지원사업 신청자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-12 ~ 2026-12-02 (D-9) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127934
-- [강원] 동해시 2027년 청년어촌정착지원 사업 신청자 모집 공고 | 소관 강원특별자치도 / 수행 기초자치단체 | 접수 2026-11-12 ~ 2026-12-02 (D-9) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128005
-- 2027년 과천 바로마켓 참여자 모집 공고 | 소관 농림축산식품부 / 수행 한국농수산식품유통공사 | 접수 2026-11-10 ~ 2026-12-02 (D-9) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128024
-- [제주] 2026년 3차 수산물 유통단계 위생안전 체계구축(자동선별기) 사업 지원계획 공고 | 소관 제주특별자치도 / 수행 직접수행 | 접수 2026-11-19 ~ 2026-12-03 (D-10) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128038
-- [전남광주] 여수시 2027년 수산식품 분야 포장재 지원 사업자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-11 ~ 2026-12-04 (D-11) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127889
-- [전남광주] 보성군 2027년 청년어촌정착 지원사업 신청 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-12 ~ 2026-12-04 (D-11) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127928
-- [전남광주] 여수시 2027년 수산식품 가공설비 지원 분야 사업자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-12 ~ 2026-12-04 (D-11) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127914
-- [경남] 사천시 2027년 청년 어촌정착지원사업 신청 공고 | 소관 경상남도 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-04 (D-11) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127954
-- [경기] 안산시 2027년 청년어촌정착지원 사업 대상자 모집 공고 | 소관 경기도 / 수행 기초자치단체 | 접수 2026-11-17 ~ 2026-12-04 (D-11) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128008
-- [충북] 충주시 2026년 농업안정기금 이자차액 지원사업 신청 공고 | 소관 충청북도 / 수행 기초자치단체 | 접수 2026-11-12 ~ 2026-12-04 (D-11) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128026
-- [전남광주] 여수시 2027년 수산물 직거래 택배비 지원사업 신청자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-17 ~ 2026-12-07 (D-14) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127966
-- [전남광주] 여수시 2027년 수산식품 국제식품인증 취득 지원사업 신청자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-17 ~ 2026-12-07 (D-14) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127963
-- [전남광주] 장흥군 2027년 청년어촌정착 지원사업 희망자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-17 ~ 2026-12-07 (D-14) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128035
-- [전남광주] 고흥군 2027년 청년어촌정착지원사업 대상자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-07 (D-14) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128034
-- [경남] 통영시 2027년 청년어촌정착지원사업 신청 공고 | 소관 경상남도 / 수행 기초자치단체 | 접수 2026-11-17 ~ 2026-12-07 (D-14) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128056
-- [전남광주] 여수시 2027년 수산물 소형저온저장시설사업 사업신청자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-19 ~ 2026-12-07 (D-14) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128053
-- [경남] 남해군 2027년 청년 어촌정착 지원사업 신청 공고 | 소관 경상남도 / 수행 기초자치단체 | 접수 2026-11-19 ~ 2026-12-10 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128060
-- [전남광주] 목포시 2027년 수산자원보호 직불제사업 신청 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127813
-- 2026년 4차 해양수산부 혁신제품 지정 시행 공고 | 소관 해양수산부 / 수행 해양수산과학기술진흥원 | 접수 2026-11-10 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127888
-- [전남광주] 여수시 2027년 수산공익직불제(수산자원보호직불제) 사업 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127922
-- [울산] 북구 2027년 수산공익직불제(수산자원보호직불제) 사업 공고 | 소관 울산광역시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127920
-- [경기] 시흥시 2027년 수산자원보호 직접직불제 사업대상자 모집 공고 | 소관 경기도 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127919
-- [부산] 서구 2027년 수산자원보호 직불제 사업 신청안내 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127916
-- [경남] 고성군 2027년 수산자원보호 직불제 신청안내 공고 | 소관 경상남도 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127976
-- [경남] 남해군 2027년 수산자원보호 직접지불금 신청 공고 | 소관 경상남도 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127970
-- [부산] 사하구 2027년 수산자원보호 직불제 신청안내 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127959
-- [부산] 해운대구 2027년 수산자원보호 직불제 신청안내 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127956
-- [경남] 통영시 2027년 수산자원보호직불제 사업 신청 공고 | 소관 경상남도 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127950
-- [전북] 부안군 2027년 수산자원보호 직불제 사업 참여자 모집 공고 | 소관 전북특별자치도 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127986
-- [부산] 남구 2027년 수산자원보호 직불제 사업 신청 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128032
-- [부산] 영도구 2027년 수산자원보호 직불제 사업 신청 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128031
-- [부산] 중구 2027년 수산자원보호직불제 사업 신청 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128028
-- [인천] 강화군 2026년 여성어업인 특화건강검진 사업 검진대상자 추가 모집 공고 | 소관 인천광역시 / 수행 기초자치단체 | 접수 2026-11-18 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128017
-- [인천] 영종구 2027년 수산자원보호 직접지불제(직불제) 신청자 모집 공고 | 소관 인천광역시 / 수행 기초자치단체 | 접수 2026-11-17 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128015
-- [인천] 제물포구 2027년 수산자원보호 직접지불제(직불제) 신청자 모집 공고 | 소관 인천광역시 / 수행 기초자치단체 | 접수 2026-11-17 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128014
-- [경남] 창녕군 2027년 청년어업인 영어 정착지원 신청 공고 | 소관 경상남도 / 수행 기초자치단체 | 접수 2026-11-20 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128059
-- [전남광주] 완도군 2027년 수산자원보호 직불제 사업 신청 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-18) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128039
+## 접수중 (48건)
+- [전남광주] 진도군 2027년 청년어촌정착 지원사업 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-05 ~ 2026-11-30 (D-6) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127732
+- [충남] 서천군 2027년 청년어촌정착지원 사업대상자 모집 공고 | 소관 충청남도 / 수행 기초자치단체 | 접수 2026-11-13 ~ 2026-11-30 (D-6) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127824
+- [전북] 고창군 2027년 청년어촌정착 지원사업 모집 공고 | 소관 전북특별자치도 / 수행 기초자치단체 | 접수 2026-11-09 ~ 2026-11-30 (D-6) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127819
+- [전북] 군산시 2026년 7차 수산물 유통시설 장비(저온저장고) 지원사업 모집 공고 | 소관 전북특별자치도 / 수행 기초자치단체 | 접수 2026-11-09 ~ 2026-11-30 (D-6) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127816
+- 2026년 3차 친환경인증선박 보급지원사업 공고 | 소관 해양수산부 / 수행 한국해양교통안전공단 | 접수 2026-11-09 ~ 2026-11-30 (D-6) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127804
+- [강원] 양양군 2027년 청년어촌정착지원 사업자 모집 공고 | 소관 강원특별자치도 / 수행 기초자치단체 | 접수 2026-11-09 ~ 2026-11-30 (D-6) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127895
+- [전남광주] 여수시 2026년 청정어장 굴 전략품목 육성 지원사업 대상자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-11 ~ 2026-11-30 (D-6) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127887
+- [전남광주] 완도군 2027년 청년어촌정착지원 사업자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-09 ~ 2026-12-02 (D-8) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127729
+- [전남광주] 영광군 2027년 청년 어촌정착 지원사업 신청자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-13 ~ 2026-12-02 (D-8) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127935
+- [전남광주] 함평군 2027년 청년 어촌정착 지원사업 신청자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-12 ~ 2026-12-02 (D-8) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127934
+- [강원] 동해시 2027년 청년어촌정착지원 사업 신청자 모집 공고 | 소관 강원특별자치도 / 수행 기초자치단체 | 접수 2026-11-12 ~ 2026-12-02 (D-8) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128005
+- 2027년 과천 바로마켓 참여자 모집 공고 | 소관 농림축산식품부 / 수행 한국농수산식품유통공사 | 접수 2026-11-10 ~ 2026-12-02 (D-8) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128024
+- [제주] 2026년 3차 수산물 유통단계 위생안전 체계구축(자동선별기) 사업 지원계획 공고 | 소관 제주특별자치도 / 수행 직접수행 | 접수 2026-11-19 ~ 2026-12-03 (D-9) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128038
+- [전남광주] 여수시 2027년 수산식품 분야 포장재 지원 사업자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-11 ~ 2026-12-04 (D-10) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127889
+- [전남광주] 보성군 2027년 청년어촌정착 지원사업 신청 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-12 ~ 2026-12-04 (D-10) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127928
+- [전남광주] 여수시 2027년 수산식품 가공설비 지원 분야 사업자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-12 ~ 2026-12-04 (D-10) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127914
+- [경남] 사천시 2027년 청년 어촌정착지원사업 신청 공고 | 소관 경상남도 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-04 (D-10) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127954
+- [경기] 안산시 2027년 청년어촌정착지원 사업 대상자 모집 공고 | 소관 경기도 / 수행 기초자치단체 | 접수 2026-11-17 ~ 2026-12-04 (D-10) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128008
+- [충북] 충주시 2026년 농업안정기금 이자차액 지원사업 신청 공고 | 소관 충청북도 / 수행 기초자치단체 | 접수 2026-11-12 ~ 2026-12-04 (D-10) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128026
+- [전남광주] 여수시 2027년 수산물 직거래 택배비 지원사업 신청자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-17 ~ 2026-12-07 (D-13) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127966
+- [전남광주] 여수시 2027년 수산식품 국제식품인증 취득 지원사업 신청자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-17 ~ 2026-12-07 (D-13) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127963
+- [전남광주] 장흥군 2027년 청년어촌정착 지원사업 희망자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-17 ~ 2026-12-07 (D-13) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128035
+- [전남광주] 고흥군 2027년 청년어촌정착지원사업 대상자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-07 (D-13) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128034
+- [경남] 통영시 2027년 청년어촌정착지원사업 신청 공고 | 소관 경상남도 / 수행 기초자치단체 | 접수 2026-11-17 ~ 2026-12-07 (D-13) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128056
+- [전남광주] 여수시 2027년 수산물 소형저온저장시설사업 사업신청자 모집 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-19 ~ 2026-12-07 (D-13) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128053
+- [경남] 남해군 2027년 청년 어촌정착 지원사업 신청 공고 | 소관 경상남도 / 수행 기초자치단체 | 접수 2026-11-19 ~ 2026-12-10 (D-16) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128060
+- [전남광주] 목포시 2027년 수산자원보호 직불제사업 신청 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127813
+- 2026년 4차 해양수산부 혁신제품 지정 시행 공고 | 소관 해양수산부 / 수행 해양수산과학기술진흥원 | 접수 2026-11-10 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127888
+- [전남광주] 여수시 2027년 수산공익직불제(수산자원보호직불제) 사업 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127922
+- [울산] 북구 2027년 수산공익직불제(수산자원보호직불제) 사업 공고 | 소관 울산광역시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127920
+- [경기] 시흥시 2027년 수산자원보호 직접직불제 사업대상자 모집 공고 | 소관 경기도 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127919
+- [부산] 서구 2027년 수산자원보호 직불제 사업 신청안내 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127916
+- [경남] 고성군 2027년 수산자원보호 직불제 신청안내 공고 | 소관 경상남도 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127976
+- [경남] 남해군 2027년 수산자원보호 직접지불금 신청 공고 | 소관 경상남도 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127970
+- [부산] 사하구 2027년 수산자원보호 직불제 신청안내 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127959
+- [부산] 해운대구 2027년 수산자원보호 직불제 신청안내 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127956
+- [경남] 통영시 2027년 수산자원보호직불제 사업 신청 공고 | 소관 경상남도 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127950
+- [전북] 부안군 2027년 수산자원보호 직불제 사업 참여자 모집 공고 | 소관 전북특별자치도 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127986
+- [부산] 남구 2027년 수산자원보호 직불제 사업 신청 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128032
+- [부산] 영도구 2027년 수산자원보호 직불제 사업 신청 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128031
+- [부산] 중구 2027년 수산자원보호직불제 사업 신청 공고 | 소관 부산광역시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128028
+- [인천] 강화군 2026년 여성어업인 특화건강검진 사업 검진대상자 추가 모집 공고 | 소관 인천광역시 / 수행 기초자치단체 | 접수 2026-11-18 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128017
+- [인천] 영종구 2027년 수산자원보호 직접지불제(직불제) 신청자 모집 공고 | 소관 인천광역시 / 수행 기초자치단체 | 접수 2026-11-17 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128015
+- [인천] 제물포구 2027년 수산자원보호 직접지불제(직불제) 신청자 모집 공고 | 소관 인천광역시 / 수행 기초자치단체 | 접수 2026-11-17 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128014
+- [경남] 창녕군 2027년 청년어업인 영어 정착지원 신청 공고 | 소관 경상남도 / 수행 기초자치단체 | 접수 2026-11-20 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128059
+- [전남광주] 완도군 2027년 수산자원보호 직불제 사업 신청 공고 | 소관 전남광주통합특별시 / 수행 기초자치단체 | 접수 2026-11-16 ~ 2026-12-11 (D-17) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128039
+- [전북] 2027년 안전한 양식장 인증 참여어가 모집 공고 | 소관 전북특별자치도 / 수행 전북특별자치도수산기술연구소 | 접수 2026-11-20 ~ 2026-12-18 (D-24) | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128073
 - [전남광주] 2026년 2차 프로젝트형 수산 수출기업 육성사업 참여기업 모집 연장 공고 | 소관 전남광주통합특별시 / 수행 전라남도중소기업일자리경제진흥원 | 접수기간 선착순 접수 | https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000127733
